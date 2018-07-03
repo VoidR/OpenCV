@@ -1,9 +1,13 @@
 #include "opencv2/opencv.hpp"
+#include<iostream>
+using namespace std;
 using namespace cv;
-int main()
+int _tmain()
 {
-	const char *fn = "D:\\opencv\\sources\\samples\\data\\apple.jpg";
-	Mat image = imread(fn);
-	imshow("Hello World", image);
+	Mat img = imread("templ.png");
+	//Mat img = imread("templ.png",IMREAD_GRAYSCALE);// »Ò¶ÈÍ¼Ïñ
+	imshow("Hello World", img);
+	//cout << "image£¨c£© = " << endl << img << endl << endl;
 	waitKey(0);
+	return 0;
 }

@@ -18,5 +18,17 @@
     <ClCompile Include="hello.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="hit-miss.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="open_jpgs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="luttest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lambency.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

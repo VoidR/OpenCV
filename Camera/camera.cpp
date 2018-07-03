@@ -15,7 +15,8 @@ int main()
 	while (1)
 	{
 		Mat frame; //定义一个Mat变量，用于存储每一帧的图像
-		capture >> frame;  //读取当前帧                        
+		capture >> frame; //读取当前帧方法一 
+		//capture.read(frame); //读取当前帧方法二 
 		if (frame.empty())
 		{
 			printf("--(!) No captured frame -- Break!");
@@ -28,7 +29,6 @@ int main()
 			Canny(edges, edges, 0, 30, 3);//边缘化
 			imshow("读取被边缘后的视频", frame); //显示当前帧
 		}
-
 		waitKey(30); //延时30ms
 	}
 	return 0;
