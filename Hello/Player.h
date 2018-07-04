@@ -4,16 +4,17 @@ using namespace cv;
 class Player
 {
 protected:
-	int Speed;//速度
-	int PosX;//x坐标
-	int PosY;//y坐标
-	IplImage* Img[4];//四个方向图片
-	int Dir;
-
+	int m_Speed;//速度
+	int m_PosX;//x坐标
+	int m_PosY;//y坐标
+	IplImage* m_Img[16];//四*4个方向图片
+	int m_Dir;
+	char lastch;
 public:
 	Player();
-	~Player();
-	void Move(int key);
+	virtual~Player();
+	virtual void Move(char key) = 0;
 	void Draw2Back(IplImage* pback);
+	//static void loadimg();
 };
 

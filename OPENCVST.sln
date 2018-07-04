@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Camera", "Camera\Camera.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hello", "Hello\Hello.vcxproj", "{780FCA00-05A6-4C78-AC1F-91E0E0A3438B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fun", "Fun\Fun.vcxproj", "{E6CD868F-02B9-416A-A408-B1A7DF5984FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{780FCA00-05A6-4C78-AC1F-91E0E0A3438B}.Release|x64.Build.0 = Release|x64
 		{780FCA00-05A6-4C78-AC1F-91E0E0A3438B}.Release|x86.ActiveCfg = Release|Win32
 		{780FCA00-05A6-4C78-AC1F-91E0E0A3438B}.Release|x86.Build.0 = Release|Win32
+		{E6CD868F-02B9-416A-A408-B1A7DF5984FB}.Debug|x64.ActiveCfg = Debug|x64
+		{E6CD868F-02B9-416A-A408-B1A7DF5984FB}.Debug|x64.Build.0 = Debug|x64
+		{E6CD868F-02B9-416A-A408-B1A7DF5984FB}.Debug|x86.ActiveCfg = Debug|Win32
+		{E6CD868F-02B9-416A-A408-B1A7DF5984FB}.Debug|x86.Build.0 = Debug|Win32
+		{E6CD868F-02B9-416A-A408-B1A7DF5984FB}.Release|x64.ActiveCfg = Release|x64
+		{E6CD868F-02B9-416A-A408-B1A7DF5984FB}.Release|x64.Build.0 = Release|x64
+		{E6CD868F-02B9-416A-A408-B1A7DF5984FB}.Release|x86.ActiveCfg = Release|Win32
+		{E6CD868F-02B9-416A-A408-B1A7DF5984FB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

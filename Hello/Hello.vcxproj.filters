@@ -39,9 +39,21 @@
     <ClCompile Include="face.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Doraemon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Baobao.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Doraemon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Baobao.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
