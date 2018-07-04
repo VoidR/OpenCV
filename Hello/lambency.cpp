@@ -3,7 +3,7 @@
 using namespace std;
 using namespace cv;
 
-int dmain()
+int cmain()
 {
 	double dtime = (double)getTickCount();//获取开始时间
 	IplImage* pimg = cvLoadImage("test2.jpg");

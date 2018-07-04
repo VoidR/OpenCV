@@ -31,7 +31,7 @@ void paste2(IplImage* img, IplImage* back, int x, int y)
 	waitKey(100);
 }
 
-int main()
+int dmain()
 {
 	double dtime = (double)getTickCount();//获取开始时间
 	IplImage* back = cvLoadImage("test2.jpg");
