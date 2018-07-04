@@ -3,7 +3,7 @@
 using namespace std;
 using namespace cv;
 
-int main()
+int dmain()
 {
 	double dtime = (double)getTickCount();//获取开始时间
 	IplImage* pimg = cvLoadImage("test2.jpg");
@@ -40,8 +40,7 @@ int main()
 			float t = ((float)(dx * dx + dy * dy) / diff);//程度
 
 			r = (int)(r + t * 255)-20;
-			//g = (int)(g + t * 255) + 200 * (1 - t);
-			g = 255;
+			g = (int)(g + t * 255) + 200 * (1 - t);
 			b = (int)(b + t * 255)-20;
 
 			r = (r>255 ? 255 : (r<0 ? 0 : r));
