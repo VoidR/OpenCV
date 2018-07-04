@@ -5,7 +5,7 @@ using namespace cv;
 int bmain()
 {
 	double dtime = (double)getTickCount();//获取开始时间
-	Mat img = imread("baboon.jpg", IMREAD_GRAYSCALE);
+	Mat img = imread("pic\\baboon.jpg", IMREAD_GRAYSCALE);
 	uchar lutdata[256];
 	for (int i = 0; i < 256; i++)
 	{

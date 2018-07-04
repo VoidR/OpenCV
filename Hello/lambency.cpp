@@ -6,7 +6,7 @@ using namespace cv;
 int cmain()
 {
 	double dtime = (double)getTickCount();//获取开始时间
-	IplImage* pimg = cvLoadImage("test2.jpg");
+	IplImage* pimg = cvLoadImage("pic\\test2.jpg");
 	//cvNamedWindow("原图", 1);
 	cvShowImage("原图", pimg);
 	//width->宽度 height->高度 RGB通道在width上
@@ -30,8 +30,8 @@ int cmain()
 			int g = CV_IMAGE_ELEM(pimg, uchar, j, i * 3 + 1);
 			int r = CV_IMAGE_ELEM(pimg, uchar, j, i * 3 + 2);
 
-			float dx = centerX - i;
-			float dy = centerY - j;
+			float dx = (float)centerX - i;
+			float dy = (float)centerY - j;
 
 			if (width > heigh)
 				dx *= radio;
@@ -39,9 +39,9 @@ int cmain()
 
 			float t = ((float)(dx * dx + dy * dy) / diff);//程度
 
-			r = (int)(r + t * 255)-20;
-			g = (int)(g + t * 255) + 200 * (1 - t);
-			b = (int)(b + t * 255)-20;
+			r = (uchar)(r + t * 255)-20;
+			g = (uchar)(g + t * 255) + 200 * (1 - t);
+			b = (uchar)(b + t * 255)-20;
 
 			r = (r>255 ? 255 : (r<0 ? 0 : r));
 			g = (g>255 ? 255 : (g<0 ? 0 : g));

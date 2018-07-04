@@ -34,8 +34,8 @@ void paste2(IplImage* img, IplImage* back, int x, int y)
 int dmain()
 {
 	double dtime = (double)getTickCount();//获取开始时间
-	IplImage* back = cvLoadImage("test2.jpg");
-	IplImage* top = cvLoadImage("test1.png");
+	IplImage* back = cvLoadImage("pic\\test2.jpg");
+	IplImage* top = cvLoadImage("pic\\test1.png");
 	int heigh_back = back->height;
 	int width_back = back->width;
 	int heigh_top = top->height;

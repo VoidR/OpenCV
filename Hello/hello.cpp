@@ -4,7 +4,7 @@ using namespace std;
 using namespace cv;
 int _tmain()
 {
-	Mat img = imread("templ.png");
+	Mat img = imread("pic\\templ.png");
 	//Mat img = imread("templ.png",IMREAD_GRAYSCALE);// »Ò¶ÈÍ¼Ïñ
 	imshow("Hello World", img);
 	//cout << "image£¨c£© = " << endl << img << endl << endl;

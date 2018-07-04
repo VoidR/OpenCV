@@ -9,7 +9,7 @@ int amain()
 	Mat mat_p = (Mat_<int>(3, 3) << 200, 0, 1, 0, 1, 0, 1, 0, 1);
 	IplImage *p = NULL;
 	char winname[5][5] = { "0","1","2","3" };
-	char filename[5][20] = { "0","templ.png", "orange.jpg","apple.jpg" };
+	char filename[5][20] = { "0","pic\\templ.png", "pic\\orange.jpg","pic\\apple.jpg" };
 	for (int i = 1; i <= 3; i++)
 	{
 		p = cvLoadImage(filename[i], 1);
