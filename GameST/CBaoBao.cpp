@@ -11,8 +11,8 @@ CBaoBao::CBaoBao()
 		m_Image[i] = cvLoadImage(filename);
 		//cout << filename << endl;
 	}
-	m_PosX = 10;
-	m_PosY = 10;
+	m_PosX = 0;
+	m_PosY = 0;
 	m_Speed = 20;
 	m_Dir = 3;
 }

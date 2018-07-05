@@ -18,9 +18,9 @@ CRobot::CRobot()
 		m_Image[i + 10] = cvLoadImage(filename1);
 		//cout << filename1 << endl;
 	}
-	m_Speed = 30;
-	m_PosX = 10;
-	m_PosY = 100;
+	m_Speed = 2;
+	m_PosX = 17 * 40;
+	m_PosY = 40 * 14;
 	m_Dir = 0;
 	m_LastCh = 's';
 }
