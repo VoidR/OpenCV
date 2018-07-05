@@ -21,7 +21,13 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Cut.h">
+    <ClInclude Include="CPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaoBao.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRobot.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -29,10 +35,16 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Fun.cpp">
+    <ClCompile Include="GameST.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Cut.cpp">
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaoBao.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRobot.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

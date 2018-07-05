@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{E6CD868F-02B9-416A-A408-B1A7DF5984FB}</ProjectGuid>
+    <ProjectGuid>{1D01DC1C-8EA1-44A5-9FBC-F6F486F13AD9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Fun</RootNamespace>
+    <RootNamespace>GameST</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -149,13 +149,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Cut.h" />
+    <ClInclude Include="CBaoBao.h" />
+    <ClInclude Include="CPlayer.h" />
+    <ClInclude Include="CRobot.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Cut.cpp" />
-    <ClCompile Include="Fun.cpp" />
+    <ClCompile Include="CBaoBao.cpp" />
+    <ClCompile Include="CPlayer.cpp" />
+    <ClCompile Include="CRobot.cpp" />
+    <ClCompile Include="GameST.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
