@@ -6,7 +6,7 @@ class CRobot :
 public:
 	CRobot();
 	~CRobot();
-	void Move();
+	void Move(System sys);
 	void Draw2Back(IplImage* pback);
 };
 

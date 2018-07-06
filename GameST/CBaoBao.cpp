@@ -13,7 +13,7 @@ CBaoBao::CBaoBao()
 	}
 	m_PosX = 0;
 	m_PosY = 0;
-	m_Speed = 20;
+	m_Speed = 40;
 	m_Dir = 3;
 }
 
@@ -26,24 +26,29 @@ CBaoBao::~CBaoBao()
 	}
 }
 
-void CBaoBao::Move(char key)
+void CBaoBao::Move(char key, System sys)
 {
+	//cout << m_PosX + 1 << m_PosY + 1 << endl;
 	switch (key)
 	{
 	case 'w':
-		m_PosY -= m_Speed;
+		if (sys.m_Map[abs(m_PosX - m_Speed) / 40 + 1][m_PosY / 40 + 1] == -1)
+			m_PosX -= m_Speed;
 		m_Dir = 0;
 		break;
 	case 'a':
-		m_PosX -= m_Speed;
+		if (sys.m_Map[m_PosX / 40 + 1][abs(m_PosY - m_Speed) / 40 + 1] == -1)
+			m_PosY -= m_Speed;
 		m_Dir = 2;
 		break;
 	case's':
-		m_PosY += m_Speed;
+		if (sys.m_Map[(m_PosX + m_Speed) / 40 + 1][m_PosY / 40 + 1] == -1)
+			m_PosX += m_Speed;
 		m_Dir = 3;
 		break;
 	case'd':
-		m_PosX += m_Speed;
+		if (sys.m_Map[m_PosX / 40 + 1][(m_PosY + m_Speed) / 40 + 1] == -1)
+			m_PosY += m_Speed;
 		m_Dir = 1;
 		break;
 	default:
@@ -55,25 +60,25 @@ void CBaoBao::Draw2Back(IplImage * pback)
 {
 	IplImage* pimg = m_Image[m_Dir];
 	//µØÍ¼±ß½çÅÐ¶Ï
-	if (m_PosY > pback->height - pimg->height - 10)
-		m_PosY = pback->height - pimg->height - 10;
-	if (m_PosX > pback->width - pimg->width - 200)
-		m_PosX = pback->width - pimg->width - 200;
+	if (m_PosX > pback->height - pimg->height - 10)
+		m_PosX = pback->height - pimg->height - 10;
+	if (m_PosY > pback->width - pimg->width - 200)
+		m_PosY = pback->width - pimg->width - 200;
 	if (m_PosX < 0)	m_PosX = 0;
 	if (m_PosY < 0)	m_PosY = 0;
 
-	for (int i = 0; i < pimg->height; i++)
-		for (int j = 0; j < pimg->width; j++)
+	for(int x=0;x<pimg->height;x++)
+		for (int y = 0; y < pimg->width; y++)
 		{
-			uchar top_b = CV_IMAGE_ELEM(pimg, uchar, i, j * 3);
-			uchar top_g = CV_IMAGE_ELEM(pimg, uchar, i, j * 3 + 1);
-			uchar top_r = CV_IMAGE_ELEM(pimg, uchar, i, j * 3 + 2);
+			uchar top_b = CV_IMAGE_ELEM(pimg, uchar, x, y * 3);
+			uchar top_g = CV_IMAGE_ELEM(pimg, uchar, x, y * 3 + 1);
+			uchar top_r = CV_IMAGE_ELEM(pimg, uchar, x, y * 3 + 2);
 
-			if (top_b >= 230 && top_r >= 230 && top_r >= 230)
+			if (top_b >= 230 && top_g >= 230 && top_r >= 230)
 				continue;
 
-			CV_IMAGE_ELEM(pback, uchar, i + m_PosY, (j + m_PosX) * 3) = top_b;
-			CV_IMAGE_ELEM(pback, uchar, i + m_PosY, (j + m_PosX) * 3 + 1) = top_g;
-			CV_IMAGE_ELEM(pback, uchar, i + m_PosY, (j + m_PosX) * 3 + 2) = top_r;
+			CV_IMAGE_ELEM(pback, uchar, x + m_PosX, (y + m_PosY) * 3) = top_b;
+			CV_IMAGE_ELEM(pback, uchar, x + m_PosX, (y + m_PosY) * 3 + 1) = top_g;
+			CV_IMAGE_ELEM(pback, uchar, x + m_PosX, (y + m_PosY) * 3 + 2) = top_r;
 		}
 }

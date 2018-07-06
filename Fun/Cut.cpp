@@ -13,10 +13,10 @@ Cut::~Cut()
 
 void Cut::shu(char* str, int n,int a)
 {
-	char outstr[] = "play10.png";
+	char outstr[] = "in0.png";
 	for (int k = 0; k < n; k++)
 	{
-		str[3] = '5' + k;
+		str[2] = '0' + k;
 		IplImage* img = cvLoadImage(str);
 		int irow = img->height;
 		int icol = img->width;
@@ -45,10 +45,10 @@ void Cut::shu(char* str, int n,int a)
 		//cvSaveImage("res1.jpg", res1);
 		//cvSaveImage("res2.jpg", res2);
 		Mat image1 = cv::cvarrToMat(res1);
-		outstr[5] = '0' + (a++);
+		outstr[2] = '0' + (a++);
 		imwrite(outstr, image1);
 		Mat image2 = cv::cvarrToMat(res2);
-		outstr[5] = '0' + a++;
+		outstr[2] = '0' + a++;
 		imwrite(outstr, image2);
 		waitKey(0);
 	}
@@ -56,10 +56,10 @@ void Cut::shu(char* str, int n,int a)
 
 void Cut::heng(char * str, int n, int a)
 {
-	char outstr[] = "out0.png";
+	char outstr[] = "player10.png";
 	for (int k = 0; k < n; k++)
 	{
-		str[3] = '0' + k;
+		str[1] = '5' + k;
 		IplImage* img = cvLoadImage(str);
 		int irow = img->height;
 		int icol = img->width;
@@ -88,11 +88,12 @@ void Cut::heng(char * str, int n, int a)
 		//cvSaveImage("res1.jpg", res1);
 		//cvSaveImage("res2.jpg", res2);
 		Mat image1 = cv::cvarrToMat(res1);
-		outstr[3] = '0' + a++;
+		outstr[7] = '0' + a++;
 		imwrite(outstr, image1);
 		Mat image2 = cv::cvarrToMat(res2);
-		outstr[3] = '0' + a++;
+		outstr[7] = '0' + a++;
 		imwrite(outstr, image2);
 		waitKey(0);
 	}
 }
+
