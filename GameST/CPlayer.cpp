@@ -10,7 +10,7 @@ CPlayer::~CPlayer()
 {
 }
 
-void CPlayer::Move(char key, System sys)
+void CPlayer::Move(char key)
 {
 }
 

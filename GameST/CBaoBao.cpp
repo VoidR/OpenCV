@@ -26,28 +26,28 @@ CBaoBao::~CBaoBao()
 	}
 }
 
-void CBaoBao::Move(char key, System sys)
+void CBaoBao::Move(char key)
 {
 	//cout << m_PosX + 1 << m_PosY + 1 << endl;
 	switch (key)
 	{
 	case 'w':
-		if (sys.m_Map[abs(m_PosX - m_Speed) / 40 + 1][m_PosY / 40 + 1] == -1)
+		//if (m_Map[abs(m_PosX - m_Speed) / 40 + 1][m_PosY / 40 + 1] == -1)
 			m_PosX -= m_Speed;
 		m_Dir = 0;
 		break;
 	case 'a':
-		if (sys.m_Map[m_PosX / 40 + 1][abs(m_PosY - m_Speed) / 40 + 1] == -1)
+		//if (m_Map[m_PosX / 40 + 1][abs(m_PosY - m_Speed) / 40 + 1] == -1)
 			m_PosY -= m_Speed;
 		m_Dir = 2;
 		break;
 	case's':
-		if (sys.m_Map[(m_PosX + m_Speed) / 40 + 1][m_PosY / 40 + 1] == -1)
+		//if (m_Map[(m_PosX + m_Speed) / 40 + 1][m_PosY / 40 + 1] == -1)
 			m_PosX += m_Speed;
 		m_Dir = 3;
 		break;
 	case'd':
-		if (sys.m_Map[m_PosX / 40 + 1][(m_PosY + m_Speed) / 40 + 1] == -1)
+		//if (m_Map[m_PosX / 40 + 1][(m_PosY + m_Speed) / 40 + 1] == -1)
 			m_PosY += m_Speed;
 		m_Dir = 1;
 		break;

@@ -1,6 +1,5 @@
 #include "stdafx.h"
 #include "CRobot.h"
-#include"System.h"
 CRobot::CRobot()
 {
 	//char filename[] = "Pic\\WuKong\\player0.png";
@@ -10,7 +9,7 @@ CRobot::CRobot()
 	{
 		filename[14] = '0' + i;
 		m_Image[i] = cvLoadImage(filename);
-		cout << filename << endl;
+		//cout << filename << endl;
 	}
 	//char filename1[] = "Pic\\WuKong\\player10.png";
 	char filename1[] = "Pic\\Robot\\play10.png";
@@ -18,7 +17,7 @@ CRobot::CRobot()
 	{
 		filename1[15] = '0' + i;
 		m_Image[i + 10] = cvLoadImage(filename1);
-		cout << filename1 << endl;
+		//cout << filename1 << endl;
 	}
 	m_Speed = 40;
 	m_PosX = 40 * 14;
@@ -36,15 +35,15 @@ CRobot::~CRobot()
 	}
 }
 
-void CRobot::Move(System sys)
+void CRobot::Move(char key)
 {
 
-	int randt = rand() % 4;
+	//int randt = rand() % 4;
 	//randt = 3;
-	switch (randt)
+	switch (key)
 	{
-	case 0:
-		if (sys.m_Map[abs(m_PosX - m_Speed) / 40 + 1][m_PosY / 40 + 1] == -1)
+	case 'w':
+		//if (sys.m_Map[abs(m_PosX - m_Speed) / 40 + 1][m_PosY / 40 + 1] == -1)
 			m_PosX -= m_Speed;
 		if (m_LastCh != 'w')
 		{
@@ -54,8 +53,8 @@ void CRobot::Move(System sys)
 		else
 			m_Dir = 12 + (m_Dir + 1) % 4;
 		break;
-	case 1:
-		if (sys.m_Map[m_PosX / 40 + 1][abs(m_PosY - m_Speed) / 40 + 1] == -1)
+	case 'a':
+		//if (sys.m_Map[m_PosX / 40 + 1][abs(m_PosY - m_Speed) / 40 + 1] == -1)
 			m_PosY -= m_Speed;
 		if (m_LastCh != 'a')
 		{
@@ -65,8 +64,8 @@ void CRobot::Move(System sys)
 		else
 			m_Dir = 4 + (m_Dir + 1) % 4;
 		break;
-	case 2:
-		if (sys.m_Map[(m_PosX + m_Speed) / 40 + 1][m_PosY / 40 + 1] == -1)
+	case 's':
+		//if (sys.m_Map[(m_PosX + m_Speed) / 40 + 1][m_PosY / 40 + 1] == -1)
 			m_PosX += m_Speed;
 		if (m_LastCh != 's')
 		{
@@ -76,8 +75,8 @@ void CRobot::Move(System sys)
 		else
 			m_Dir = (m_Dir + 1) % 4;
 		break;
-	case 3:
-		if (sys.m_Map[m_PosX / 40 + 1][(m_PosY + m_Speed) / 40 + 1] == -1)
+	case 'd':
+		//if (sys.m_Map[m_PosX / 40 + 1][(m_PosY + m_Speed) / 40 + 1] == -1)
 			m_PosY += m_Speed;
 		if (m_LastCh != 'd')
 		{

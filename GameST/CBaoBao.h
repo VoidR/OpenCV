@@ -6,7 +6,7 @@ class CBaoBao :
 public:
 	CBaoBao();
 	~CBaoBao();
-	void Move(char key, System sys);
+	void Move(char key);
 	void Draw2Back(IplImage* pback);
 };
 
