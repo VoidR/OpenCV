@@ -1,5 +1,5 @@
-#include "stdafx.h"
-#include "CBaoBao.h"
+#include  "stdafx.h"
+#include  "CBaoBao.h"
 
 
 CBaoBao::CBaoBao()

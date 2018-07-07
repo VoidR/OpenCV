@@ -27,6 +27,12 @@
     <ClInclude Include="CSystem.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CChampion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CKnight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -39,6 +45,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CChampion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CKnight.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

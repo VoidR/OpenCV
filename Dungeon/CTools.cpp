@@ -35,6 +35,7 @@ void CTools::Draw2Back(IplImage * pback, char * str, int x, int y, char aim)
 void CTools::Draw2Back(IplImage * pback, IplImage * pimg, int x, int y, char aim)
 {
 	int Y = y, X = x;
+	//cvShowImage("1", pimg);
 	for (int i = 0; i < pimg->height; i++)
 		for (int j = 0; j < pimg->width; j++)
 		{
@@ -42,20 +43,48 @@ void CTools::Draw2Back(IplImage * pback, IplImage * pimg, int x, int y, char aim
 			uchar top_g = CV_IMAGE_ELEM(pimg, uchar, i, j * 3 + 1);
 			uchar top_r = CV_IMAGE_ELEM(pimg, uchar, i, j * 3 + 2);
 
-			if (aim == 'R')
+			if (aim == 'T')
 			{
-				if (DisRed(top_b, top_g, top_r))
-					continue;
+				CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3) = (uchar)top_b * 0.3 + (uchar)(CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3) * 0.7);
+				CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3 + 1) = (uchar)top_g * 0.5 + (uchar)(CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3 + 1) * 0.5);
+				CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3 + 2) = (uchar)top_r * 0.5 + (uchar)(CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3 + 2) * 0.5);
 			}
-			else if (aim == 'W')
+			else
 			{
-				if (DisWhite(top_b, top_g, top_r))
+				if ((aim == 'R'&&DisRed(top_b, top_g, top_r)) || (aim == 'W'&&DisWhite(top_b, top_g, top_r))|| aim == 'B'&&DisBlack(top_b, top_g, top_r))
 					continue;
-			}
 
-			CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3) = top_b;
-			CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3 + 1) = top_g;
-			CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3 + 2) = top_r;
+				CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3) = top_b;
+				CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3 + 1) = top_g;
+				CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3 + 2) = top_r;
+			}
+			
+		}
+}
+
+void CTools::Draw2BackTrans(IplImage * pback, IplImage * pimg, int x, int y)
+{
+	int Y = y, X = x;
+	for (int i = 0; i < pimg->height; i++)
+		for (int j = 0; j < pimg->width; j++)
+		{
+			uchar top_b = CV_IMAGE_ELEM(pimg, uchar, i, j * 3);
+			uchar top_g = CV_IMAGE_ELEM(pimg, uchar, i, j * 3 + 1);
+			uchar top_r = CV_IMAGE_ELEM(pimg, uchar, i, j * 3 + 2);
+
+			if (i + X <= 150 || j + Y <= 14 || j + Y >= 355 - 7 || i + X >= 474)
+			{
+				CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3) = (uchar)top_b * 0.3 + (uchar)(CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3) * 0.7);
+				CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3 + 1) = (uchar)top_g * 0.3 + (uchar)(CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3 + 1) * 0.7);
+				CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3 + 2) = (uchar)top_r * 0.3 + (uchar)(CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3 + 2) * 0.7);
+			}
+			else
+			{
+				CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3) = top_b;
+				CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3 + 1) = top_g;
+				CV_IMAGE_ELEM(pback, uchar, i + X, (j + Y) * 3 + 2) = top_r;
+			}
+			
 		}
 }
 
@@ -70,6 +99,14 @@ bool CTools::DisRed(int b, int g, int r)
 bool CTools::DisWhite(int b, int g, int r)
 {
 	if (b >= 255 && g >= 255 && r >= 255)
+		return true;
+	else
+		return false;
+}
+
+bool CTools::DisBlack(int b, int g, int r)
+{
+	if (b <= 2 && g <= 2 && r <= 2)
 		return true;
 	else
 		return false;
