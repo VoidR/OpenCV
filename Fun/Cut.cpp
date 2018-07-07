@@ -97,3 +97,25 @@ void Cut::heng(char * str, int n, int a)
 	}
 }
 
+void Cut::cut(char * str, int y, int x, int width, int height, IplImage * img)
+{
+	IplImage* res = cvCreateImage(CvSize(width, height), IPL_DEPTH_8U, 3);
+	for (int i = 0; i < height; i++)
+	{
+		for (int j = 0; j < width; j++)
+		{
+			CV_IMAGE_ELEM(res, uchar, i, j * 3) = CV_IMAGE_ELEM(img, uchar, x + i, (y + j) * 3);
+			CV_IMAGE_ELEM(res, uchar, i, j * 3 + 1) = CV_IMAGE_ELEM(img, uchar, x + i, (y + j) * 3 + 1);
+			CV_IMAGE_ELEM(res, uchar, i, j * 3 + 2) = CV_IMAGE_ELEM(img, uchar, x + i, (y + j) * 3 + 2);
+		}
+	}
+	//cvShowImage("1", res);
+	//waitKey();
+	Mat image = cvarrToMat(res);
+	//imshow("2", image);
+	imwrite(str, image);
+	waitKey(0);
+}
+
+
+

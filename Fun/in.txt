@@ -1,0 +1,1476 @@
+bg0.png 1402 1166 40 40" frameX="-9" frameY="-9" frameWidth="58" frameHeight="58"/>
+bg1.png 1402 1125 40 40" frameX="-9" frameY="-9" frameWidth="58" frameHeight="58"/>
+bg10.png 826 1345 22 12" frameX="-13" frameY="-21" frameWidth="48" frameHeight="54"/>
+bg11.png 1178 1760 24 12" frameX="-12" frameY="-21" frameWidth="48" frameHeight="54"/>
+bg12.png 1153 1760 24 12" frameX="-12" frameY="-21" frameWidth="48" frameHeight="54"/>
+bg13.png 1128 1760 24 12" frameX="-12" frameY="-21" frameWidth="48" frameHeight="54"/>
+bg14.png 1102 1494 12 12" frameX="-18" frameY="-21" frameWidth="48" frameHeight="54"/>
+bg15.png 1403 1084 40 40" frameX="-9" frameY="-9" frameWidth="58" frameHeight="58"/>
+bg16.png 1089 1494 12 12" frameX="-18" frameY="-21" frameWidth="48" frameHeight="54"/>
+bg17.png 1283 1507 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+bg2.png 1248 1507 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+bg3.png 1213 1507 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+bg4.png 1178 1507 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+bg5.png 1143 1507 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+bg6.png 1341 1453 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+bg7.png 1341 1412 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+bg8.png 1103 1760 24 12" frameX="-12" frameY="-21" frameWidth="48" frameHeight="54"/>
+bg9.png 668 688 24 12" frameX="-12" frameY="-21" frameWidth="48" frameHeight="54"/>
+block0.png 240 1722 50 50" frameX="-4" frameY="-4" frameWidth="58" frameHeight="58"/>
+block1.png 994 1718 54 54" frameX="-2" frameY="-2" frameWidth="58" frameHeight="58"/>
+block10.png 939 1718 54 54" frameX="-2" frameY="-2" frameWidth="58" frameHeight="58"/>
+block100.png 937 1640 56 58" frameX="-1" frameY="0" frameWidth="58" frameHeight="58"/>
+block101.png 883 1562 56 58" frameX="-1" frameY="0" frameWidth="58" frameHeight="58"/>
+block102.png 1227 1607 46 42" frameX="-6" frameY="-4" frameWidth="58" frameHeight="58"/>
+block102t.png 1566 1277 122 28" frameX="-25" frameY="-27" frameWidth="170" frameHeight="108"/>
+block103.png 1689 1175 46 42" frameX="-6" frameY="-4" frameWidth="58" frameHeight="58"/>
+block103t.png 1443 1277 122 28" frameX="-25" frameY="-27" frameWidth="170" frameHeight="108"/>
+block104.png 1690 1132 46 42" frameX="-6" frameY="-4" frameWidth="58" frameHeight="58"/>
+block104t.png 1566 1234 122 42" frameX="-24" frameY="-27" frameWidth="170" frameHeight="108"/>
+block105.png 1748 1270 24 36" frameX="-17" frameY="-8" frameWidth="58" frameHeight="58"/>
+block105t.png 611 1008 104 28" frameX="-24" frameY="-27" frameWidth="170" frameHeight="108"/>
+block106.png 1184 1704 42 44" frameX="-8" frameY="-5" frameWidth="58" frameHeight="58"/>
+block107.png 1224 1562 42 44" frameX="-8" frameY="-5" frameWidth="58" frameHeight="58"/>
+block108.png 1184 1607 42 44" frameX="-8" frameY="-5" frameWidth="58" frameHeight="58"/>
+block109.png 1181 1562 42 44" frameX="-8" frameY="-5" frameWidth="58" frameHeight="58"/>
+block11.png 884 1718 54 54" frameX="-2" frameY="-2" frameWidth="58" frameHeight="58"/>
+block110.png 1141 1607 42 44" frameX="-8" frameY="-5" frameWidth="58" frameHeight="58"/>
+block111.png 1138 1562 42 44" frameX="-8" frameY="-5" frameWidth="58" frameHeight="58"/>
+block112.png 99 1358 48 44" frameX="-5" frameY="-5" frameWidth="58" frameHeight="58"/>
+block113.png 50 1728 48 44" frameX="-5" frameY="-5" frameWidth="58" frameHeight="58"/>
+block114.png 50 1358 48 44" frameX="-5" frameY="-5" frameWidth="58" frameHeight="58"/>
+block115.png 1 1728 48 44" frameX="-5" frameY="-5" frameWidth="58" frameHeight="58"/>
+block116.png 1318 1507 18 40" frameX="-21" frameY="-10" frameWidth="58" frameHeight="58"/>
+block117.png 822 1420 18 40" frameX="-21" frameY="-10" frameWidth="58" frameHeight="58"/>
+block118.png 1376 1446 18 40" frameX="-21" frameY="-10" frameWidth="58" frameHeight="58"/>
+block119.png 849 1306 18 40" frameX="-21" frameY="-10" frameWidth="58" frameHeight="58"/>
+block12.png 900 1507 54 54" frameX="-2" frameY="-2" frameWidth="58" frameHeight="58"/>
+block120.png 1049 1714 48 46" frameX="-7" frameY="-3" frameWidth="58" frameHeight="58"/>
+block121.png 999 1562 48 54" frameX="-4" frameY="0" frameWidth="54" frameHeight="54"/>
+block122.png 189 1722 50 50" frameX="-3" frameY="-3" frameWidth="54" frameHeight="54"/>
+block123.png 1048 1562 44 54" frameX="-3" frameY="0" frameWidth="54" frameHeight="54"/>
+block124.png 955 1507 48 54" frameX="-1" frameY="0" frameWidth="54" frameHeight="54"/>
+block125.png 824 1562 58 58"/>
+block126.png 1742 285 28 42" frameX="-13" frameY="-7" frameWidth="54" frameHeight="54"/>
+block127.png 765 1562 58 58"/>
+block128.png 408 1734 56 36" frameX="-1" frameY="-22" frameWidth="58" frameHeight="58"/>
+block129.png 1404 867 40 48" frameX="-9" frameY="0" frameWidth="58" frameHeight="58"/>
+block13.png 829 1718 54 54" frameX="-2" frameY="-2" frameWidth="58" frameHeight="58"/>
+block130.png 1742 1424 26 24" frameX="-16" frameY="-21" frameWidth="58" frameHeight="58"/>
+block131.png 1742 1 30 48" frameX="-14" frameY="-6" frameWidth="58" frameHeight="58"/>
+block131t.png 1443 1234 122 42" frameX="-24" frameY="-27" frameWidth="170" frameHeight="108"/>
+block132.png 703 1369 38 52" frameX="-8" frameY="-1" frameWidth="54" frameHeight="54"/>
+block133.png 1141 1706 42 44" frameX="-8" frameY="-5" frameWidth="58" frameHeight="58"/>
+block134.png 1098 1613 42 44" frameX="-8" frameY="-5" frameWidth="58" frameHeight="58"/>
+block135.png 1 1358 48 44" frameX="-5" frameY="-5" frameWidth="58" frameHeight="58"/>
+block136.png 1690 1089 46 42" frameX="-6" frameY="-4" frameWidth="58" frameHeight="58"/>
+block136t.png 148 962 92 28" frameX="-25" frameY="-27" frameWidth="170" frameHeight="108"/>
+block137.png 1746 1338 26 36" frameX="-16" frameY="-10" frameWidth="58" frameHeight="58"/>
+block137t.png 611 979 104 28" frameX="-24" frameY="-27" frameWidth="170" frameHeight="108"/>
+block138.png 1093 1562 44 50" frameX="-2" frameY="-2" frameWidth="48" frameHeight="54"/>
+block139.png 880 1640 56 58" frameX="-1" frameY="0" frameWidth="58" frameHeight="58"/>
+block14.png 845 1507 54 54" frameX="-2" frameY="-2" frameWidth="58" frameHeight="58"/>
+block140.png 823 1640 56 58" frameX="-1" frameY="0" frameWidth="58" frameHeight="58"/>
+block141.png 1004 1507 44 54" frameX="-5" frameY="0" frameWidth="54" frameHeight="54"/>
+block142.png 1199 1256 56 58" frameX="-1" frameY="0" frameWidth="58" frameHeight="58"/>
+block143.png 1742 369 28 40" frameX="-13" frameY="-10" frameWidth="54" frameHeight="54"/>
+block144.png 790 1507 54 54" frameX="-2" frameY="-1" frameWidth="58" frameHeight="58"/>
+block145.png 994 1638 58 56" frameX="0" frameY="-1" frameWidth="58" frameHeight="58"/>
+block146.png 1199 1197 56 58" frameX="-1" frameY="0" frameWidth="58" frameHeight="58"/>
+block147.png 1201 1085 54 56" frameX="-2" frameY="-1" frameWidth="58" frameHeight="58"/>
+block148.png 291 1507 58 54" frameX="0" frameY="-3" frameWidth="58" frameHeight="58"/>
+block149.png 1202 1028 54 56" frameX="-2" frameY="-1" frameWidth="58" frameHeight="58"/>
+block15.png 1690 1036 46 52" frameX="-2" frameY="0" frameWidth="48" frameHeight="54"/>
+block150.png 1718 411 54 56" frameX="-2" frameY="-1" frameWidth="58" frameHeight="58"/>
+block151.png 763 1441 58 58"/>
+block152.png 764 1642 58 58"/>
+block153.png 940 1562 58 56" frameX="0" frameY="-1" frameWidth="58" frameHeight="58"/>
+block154.png 706 1562 58 58"/>
+block16.png 1053 1636 44 50" frameX="-2" frameY="-2" frameWidth="48" frameHeight="54"/>
+block17.png 1690 983 46 52" frameX="-2" frameY="0" frameWidth="48" frameHeight="54"/>
+block18.png 1691 930 46 52" frameX="-2" frameY="0" frameWidth="48" frameHeight="54"/>
+block19.png 1691 877 46 52" frameX="-2" frameY="0" frameWidth="48" frameHeight="54"/>
+block2.png 735 1507 54 54" frameX="-2" frameY="-2" frameWidth="58" frameHeight="58"/>
+block20.png 1049 1507 44 50" frameX="-2" frameY="-2" frameWidth="48" frameHeight="54"/>
+block21.png 680 1507 54 54" frameX="-2" frameY="-2" frameWidth="58" frameHeight="58"/>
+block22.png 625 1507 54 54" frameX="-2" frameY="-2" frameWidth="58" frameHeight="58"/>
+block23.png 570 1507 54 54" frameX="-2" frameY="-2" frameWidth="58" frameHeight="58"/>
+block3.png 515 1507 54 54" frameX="-2" frameY="-2" frameWidth="58" frameHeight="58"/>
+block4.png 281 1350 46 52" frameX="-2" frameY="0" frameWidth="48" frameHeight="54"/>
+block5.png 787 1369 44 50" frameX="-2" frameY="-2" frameWidth="48" frameHeight="54"/>
+block6.png 460 1507 54 54" frameX="-2" frameY="-2" frameWidth="58" frameHeight="58"/>
+block7.png 405 1507 54 54" frameX="-2" frameY="-2" frameWidth="58" frameHeight="58"/>
+block8.png 350 1507 54 54" frameX="-2" frameY="-2" frameWidth="58" frameHeight="58"/>
+block9.png 1201 1142 54 54" frameX="-2" frameY="-2" frameWidth="58" frameHeight="58"/>
+body000.png 548 1422 26 18" frameX="-16" frameY="-32" frameWidth="58" frameHeight="58"/>
+body000a.png 548 1422 26 18" frameX="-12" frameY="-17" frameWidth="48" frameHeight="54"/>
+body000b.png 548 1422 26 18" frameX="-17" frameY="-19" frameWidth="58" frameHeight="58"/>
+body001.png 1742 236 30 20" frameX="-13" frameY="-31" frameWidth="58" frameHeight="58"/>
+body001a.png 1742 236 30 20" frameX="-9" frameY="-16" frameWidth="48" frameHeight="54"/>
+body001b.png 1742 236 30 20" frameX="-14" frameY="-18" frameWidth="58" frameHeight="58"/>
+body002.png 826 1324 22 20" frameX="-17" frameY="-31" frameWidth="58" frameHeight="58"/>
+body002a.png 1404 850 22 16" frameX="-13" frameY="-15" frameWidth="48" frameHeight="54"/>
+body002b.png 1404 850 22 16" frameX="-18" frameY="-17" frameWidth="58" frameHeight="58"/>
+body003.png 759 1703 26 20" frameX="-15" frameY="-31" frameWidth="58" frameHeight="58"/>
+body003a.png 859 1400 26 16" frameX="-11" frameY="-15" frameWidth="48" frameHeight="54"/>
+body003b.png 859 1400 26 16" frameX="-16" frameY="-17" frameWidth="58" frameHeight="58"/>
+body004.png 1742 257 30 18" frameX="-13" frameY="-32" frameWidth="58" frameHeight="58"/>
+body004a.png 1742 257 30 18" frameX="-9" frameY="-17" frameWidth="48" frameHeight="54"/>
+body004b.png 1742 257 30 18" frameX="-14" frameY="-19" frameWidth="58" frameHeight="58"/>
+body005.png 521 1403 26 18" frameX="-15" frameY="-32" frameWidth="58" frameHeight="58"/>
+body005a.png 868 1330 26 16" frameX="-11" frameY="-16" frameWidth="48" frameHeight="54"/>
+body005b.png 868 1330 26 16" frameX="-16" frameY="-18" frameWidth="58" frameHeight="58"/>
+body006.png 732 1703 26 20" frameX="-16" frameY="-30" frameWidth="58" frameHeight="58"/>
+body006a.png 832 1400 26 16" frameX="-12" frameY="-16" frameWidth="48" frameHeight="54"/>
+body006b.png 832 1400 26 16" frameX="-17" frameY="-18" frameWidth="58" frameHeight="58"/>
+body007.png 705 1703 26 20" frameX="-16" frameY="-30" frameWidth="58" frameHeight="58"/>
+body007a.png 1269 1749 26 16" frameX="-12" frameY="-16" frameWidth="48" frameHeight="54"/>
+body007b.png 1269 1749 26 16" frameX="-17" frameY="-18" frameWidth="58" frameHeight="58"/>
+body008.png 521 1422 26 18" frameX="-16" frameY="-32" frameWidth="58" frameHeight="58"/>
+body008a.png 521 1422 26 18" frameX="-12" frameY="-17" frameWidth="48" frameHeight="54"/>
+body008b.png 521 1422 26 18" frameX="-17" frameY="-19" frameWidth="58" frameHeight="58"/>
+body009.png 494 1403 26 18" frameX="-16" frameY="-32" frameWidth="58" frameHeight="58"/>
+body009a.png 494 1403 26 18" frameX="-12" frameY="-17" frameWidth="48" frameHeight="54"/>
+body009b.png 494 1403 26 18" frameX="-17" frameY="-19" frameWidth="58" frameHeight="58"/>
+body010.png 678 669 28 18" frameX="-13" frameY="-32" frameWidth="58" frameHeight="58"/>
+body010a.png 678 669 28 18" frameX="-10" frameY="-17" frameWidth="48" frameHeight="54"/>
+body010b.png 678 669 28 18" frameX="-15" frameY="-19" frameWidth="58" frameHeight="58"/>
+body011.png 494 1422 26 18" frameX="-16" frameY="-32" frameWidth="58" frameHeight="58"/>
+body011a.png 494 1422 26 18" frameX="-12" frameY="-17" frameWidth="48" frameHeight="54"/>
+body011b.png 494 1422 26 18" frameX="-17" frameY="-19" frameWidth="58" frameHeight="58"/>
+body999.png 771 1420 18 20" frameX="-17" frameY="-29" frameWidth="54" frameHeight="54"/>
+button000.png 1403 1753 50 14" frameX="-12" frameY="-27" frameWidth="76" frameHeight="54"/>
+button001.png 635 1202 10 10" frameX="-33" frameY="-14" frameWidth="76" frameHeight="54"/>
+button003.png 1600 1622 12 14" frameX="-20" frameY="-11" frameWidth="52" frameHeight="52"/>
+button004.png 1403 1738 50 14" frameX="-12" frameY="-27" frameWidth="76" frameHeight="54"/>
+button005.png 1398 1723 50 14" frameX="-12" frameY="-27" frameWidth="76" frameHeight="54"/>
+button006.png 194 1349 28 14" frameX="-24" frameY="-12" frameWidth="76" frameHeight="54"/>
+button007.png 931 1494 14 12" frameX="-30" frameY="-13" frameWidth="76" frameHeight="54"/>
+button008.png 916 1494 14 12" frameX="-30" frameY="-13" frameWidth="76" frameHeight="54"/>
+button009.png 1587 1667 14 14" frameX="-30" frameY="-12" frameWidth="76" frameHeight="54"/>
+button010.png 1585 1682 14 14" frameX="-30" frameY="-12" frameWidth="76" frameHeight="54"/>
+button011.png 901 1494 14 12" frameX="-31" frameY="-13" frameWidth="76" frameHeight="54"/>
+button012.png 1580 1607 26 14" frameX="-25" frameY="-27" frameWidth="76" frameHeight="54"/>
+button013.png 839 1494 16 12" frameX="-31" frameY="-14" frameWidth="76" frameHeight="54"/>
+button014.png 1580 1592 26 14" frameX="-24" frameY="-27" frameWidth="76" frameHeight="54"/>
+button015.png 1076 1494 12 12" frameX="-31" frameY="-14" frameWidth="76" frameHeight="54"/>
+button016.png 1577 1757 14 14" frameX="-15" frameY="-16" frameWidth="44" frameHeight="44"/>
+button017.png 1562 1727 16 14" frameX="-17" frameY="-11" frameWidth="52" frameHeight="52"/>
+button018.png 1561 1652 26 14" frameX="-12" frameY="-26" frameWidth="52" frameHeight="52"/>
+button019.png 1573 1622 26 14" frameX="-12" frameY="-26" frameWidth="52" frameHeight="52"/>
+button020.png 1584 1712 14 14" frameX="-18" frameY="-12" frameWidth="52" frameHeight="52"/>
+button021.png 622 1202 12 10" frameX="-20" frameY="-12" frameWidth="52" frameHeight="52"/>
+button022.png 1561 1637 26 14" frameX="-12" frameY="-26" frameWidth="52" frameHeight="52"/>
+button023.png 1579 1727 14 14" frameX="-31" frameY="-19" frameWidth="76" frameHeight="54"/>
+button024.png 1577 1742 14 14" frameX="-31" frameY="-19" frameWidth="76" frameHeight="54"/>
+button025.png 1562 1757 14 14" frameX="-31" frameY="-19" frameWidth="76" frameHeight="54"/>
+button026.png 1545 1667 26 14" frameX="-8" frameY="-26" frameWidth="42" frameHeight="50"/>
+button027.png 886 1494 14 12" frameX="-15" frameY="-11" frameWidth="42" frameHeight="50"/>
+button028.png 1063 1494 12 12" frameX="-19" frameY="-12" frameWidth="52" frameHeight="52"/>
+button029.png 1535 1757 26 14" frameX="-12" frameY="-26" frameWidth="52" frameHeight="52"/>
+button030.png 1588 1637 12 14" frameX="-20" frameY="-11" frameWidth="52" frameHeight="52"/>
+button031.png 1535 1742 26 14" frameX="-12" frameY="-26" frameWidth="52" frameHeight="52"/>
+button032.png 1050 1494 12 12" frameX="-17" frameY="-17" frameWidth="44" frameHeight="44"/>
+button033.png 1037 1494 12 12" frameX="-15" frameY="-17" frameWidth="44" frameHeight="44"/>
+button034.png 839 1494 16 12" frameX="-14" frameY="-16" frameWidth="44" frameHeight="44"/>
+button035.png 1562 1742 14 14" frameX="-16" frameY="-16" frameWidth="44" frameHeight="44"/>
+button036.png 871 1494 14 12" frameX="-15" frameY="-17" frameWidth="44" frameHeight="44"/>
+button037.png 1600 1682 12 14" frameX="-16" frameY="-17" frameWidth="44" frameHeight="44"/>
+button038.png 1598 1697 12 14" frameX="-16" frameY="-15" frameWidth="44" frameHeight="44"/>
+button039.png 1454 1507 16 14" frameX="-18" frameY="-11" frameWidth="52" frameHeight="52"/>
+button040.png 1542 1712 26 14" frameX="-12" frameY="-26" frameWidth="52" frameHeight="52"/>
+button041.png 1580 1607 26 14" frameX="-12" frameY="-26" frameWidth="52" frameHeight="52"/>
+button042.png 839 1494 16 12" frameX="-18" frameY="-12" frameWidth="52" frameHeight="52"/>
+button043.png 1577 1757 14 14" frameX="-19" frameY="-11" frameWidth="52" frameHeight="52"/>
+button044.png 1535 1727 26 14" frameX="-12" frameY="-26" frameWidth="52" frameHeight="52"/>
+button045.png 1454 1507 16 14" frameX="-30" frameY="-11" frameWidth="76" frameHeight="54"/>
+button046.png 1374 1708 50 14" frameX="-12" frameY="-27" frameWidth="76" frameHeight="54"/>
+button047.png 1374 1693 50 14" frameX="-12" frameY="-27" frameWidth="76" frameHeight="54"/>
+button048.png 1203 1760 20 12" frameX="-29" frameY="-13" frameWidth="76" frameHeight="54"/>
+button049.png 996 1619 18 18" frameX="-14" frameY="-13" frameWidth="44" frameHeight="44"/>
+button050.png 1585 1697 12 14" frameX="-19" frameY="-11" frameWidth="52" frameHeight="52"/>
+button051.png 1558 1542 26 14" frameX="-13" frameY="-27" frameWidth="52" frameHeight="52"/>
+button052.png 1374 1678 50 14" frameX="-12" frameY="-27" frameWidth="76" frameHeight="54"/>
+button053.png 1478 1497 50 14" frameX="-12" frameY="-27" frameWidth="76" frameHeight="54"/>
+button054.png 1478 1482 50 14" frameX="-12" frameY="-27" frameWidth="76" frameHeight="54"/>
+button055.png 1404 1652 48 14" frameX="-14" frameY="-27" frameWidth="76" frameHeight="54"/>
+button056.png 611 862 10 14" frameX="-33" frameY="-11" frameWidth="76" frameHeight="54"/>
+button057.png 1115 1494 10 12" frameX="-33" frameY="-12" frameWidth="76" frameHeight="54"/>
+button058.png 1577 1757 14 14" frameX="-31" frameY="-11" frameWidth="76" frameHeight="54"/>
+button059.png 1569 1507 26 14" frameX="-24" frameY="-27" frameWidth="76" frameHeight="54"/>
+button060.png 609 1202 12 10" frameX="-31" frameY="-14" frameWidth="76" frameHeight="54"/>
+button062.png 1558 1527 26 14" frameX="-24" frameY="-27" frameWidth="76" frameHeight="54"/>
+button063.png 1535 1727 26 14" frameX="-24" frameY="-27" frameWidth="76" frameHeight="54"/>
+button064.png 1478 1467 50 14" frameX="-12" frameY="-27" frameWidth="76" frameHeight="54"/>
+button065.png 1380 1043 10 12" frameX="-33" frameY="-13" frameWidth="76" frameHeight="54"/>
+button066.png 1518 1697 26 14" frameX="-24" frameY="-27" frameWidth="76" frameHeight="54"/>
+button067.png 1518 1682 26 14" frameX="-24" frameY="-27" frameWidth="76" frameHeight="54"/>
+button068.png 822 1494 16 12" frameX="-29" frameY="-13" frameWidth="76" frameHeight="54"/>
+button069.png 1558 1577 26 14" frameX="-24" frameY="-27" frameWidth="76" frameHeight="54"/>
+button070.png 1558 1562 26 14" frameX="-24" frameY="-27" frameWidth="76" frameHeight="54"/>
+button071.png 1353 1663 50 14" frameX="-12" frameY="-27" frameWidth="76" frameHeight="54"/>
+button072.png 1353 1648 50 14" frameX="-12" frameY="-27" frameWidth="76" frameHeight="54"/>
+button073.png 1553 1607 26 14" frameX="-24" frameY="-27" frameWidth="76" frameHeight="54"/>
+button074.png 1553 1592 26 14" frameX="-24" frameY="-27" frameWidth="76" frameHeight="54"/>
+button075.png 856 1494 14 12" frameX="-29" frameY="-14" frameWidth="76" frameHeight="54"/>
+button076.png 1710 588 62 14" frameX="-11" frameY="-26" frameWidth="84" frameHeight="52"/>
+button077.png 975 1394 12 16" frameX="-36" frameY="-9" frameWidth="84" frameHeight="52"/>
+button078.png 1497 1452 50 14" frameX="-12" frameY="-27" frameWidth="76" frameHeight="54"/>
+button079.png 1534 1652 26 14" frameX="-12" frameY="-26" frameWidth="52" frameHeight="52"/>
+button080.png 1497 1437 50 14" frameX="-12" frameY="-27" frameWidth="76" frameHeight="54"/>
+button081.png 975 1394 12 16" frameX="-19" frameY="-9" frameWidth="52" frameHeight="52"/>
+button082.png 569 1707 32 24" frameX="-20" frameY="0" frameWidth="52" frameHeight="52"/>
+button083.png 1446 1452 50 14" frameX="-16" frameY="-26" frameWidth="84" frameHeight="52"/>
+button084.png 1024 1494 12 12" frameX="-36" frameY="-12" frameWidth="84" frameHeight="52"/>
+button085.png 1011 1494 12 12" frameX="-36" frameY="-12" frameWidth="84" frameHeight="52"/>
+button086.png 1379 1224 22 20" frameX="-14" frameY="-16" frameWidth="44" frameHeight="44"/>
+button087.png 1546 1622 26 14" frameX="-24" frameY="-27" frameWidth="76" frameHeight="54"/>
+button088.png 886 1494 14 12" frameX="-31" frameY="-13" frameWidth="76" frameHeight="54"/>
+button100.png 1002 1002 76 54"/>
+button101.png 890 787 52 52"/>
+button102.png 684 1728 44 44"/>
+button103.png 1400 1259 42 50"/>
+button104.png 1264 627 84 52"/>
+button2.png 1534 1637 26 14" frameX="-13" frameY="-26" frameWidth="52" frameHeight="52"/>
+chain000a.png 1379 1149 22 28" frameX="-13" frameY="-11" frameWidth="48" frameHeight="54"/>
+chain000b.png 1379 1149 22 28" frameX="-18" frameY="-13" frameWidth="58" frameHeight="58"/>
+chain001a.png 586 1154 22 30" frameX="-13" frameY="-10" frameWidth="48" frameHeight="54"/>
+chain001b.png 586 1154 22 30" frameX="-18" frameY="-12" frameWidth="58" frameHeight="58"/>
+chain002a.png 586 1123 22 30" frameX="-13" frameY="-9" frameWidth="48" frameHeight="54"/>
+chain002b.png 586 1123 22 30" frameX="-18" frameY="-11" frameWidth="58" frameHeight="58"/>
+chain003a.png 587 1092 22 30" frameX="-13" frameY="-9" frameWidth="48" frameHeight="54"/>
+chain003b.png 587 1092 22 30" frameX="-18" frameY="-11" frameWidth="58" frameHeight="58"/>
+chain004a.png 898 1448 24 30" frameX="-12" frameY="-11" frameWidth="48" frameHeight="54"/>
+chain004b.png 898 1448 24 30" frameX="-17" frameY="-13" frameWidth="58" frameHeight="58"/>
+chain005a.png 587 1061 22 30" frameX="-13" frameY="-9" frameWidth="48" frameHeight="54"/>
+chain005b.png 587 1061 22 30" frameX="-18" frameY="-11" frameWidth="58" frameHeight="58"/>
+chain006a.png 1379 1120 22 28" frameX="-13" frameY="-11" frameWidth="48" frameHeight="54"/>
+chain006b.png 1379 1120 22 28" frameX="-18" frameY="-13" frameWidth="58" frameHeight="58"/>
+chain007a.png 623 851 22 30" frameX="-13" frameY="-10" frameWidth="48" frameHeight="54"/>
+chain007b.png 623 851 22 30" frameX="-18" frameY="-12" frameWidth="58" frameHeight="58"/>
+chain008a.png 623 820 22 30" frameX="-13" frameY="-9" frameWidth="48" frameHeight="54"/>
+chain008b.png 623 820 22 30" frameX="-18" frameY="-11" frameWidth="58" frameHeight="58"/>
+chain009a.png 1380 1091 22 28" frameX="-13" frameY="-11" frameWidth="48" frameHeight="54"/>
+chain009b.png 1380 1091 22 28" frameX="-18" frameY="-13" frameWidth="58" frameHeight="58"/>
+chain010a.png 1380 1062 22 28" frameX="-13" frameY="-11" frameWidth="48" frameHeight="54"/>
+chain010b.png 1380 1062 22 28" frameX="-18" frameY="-13" frameWidth="58" frameHeight="58"/>
+chain011a.png 586 1185 22 28" frameX="-13" frameY="-11" frameWidth="48" frameHeight="54"/>
+chain011b.png 586 1185 22 28" frameX="-18" frameY="-13" frameWidth="58" frameHeight="58"/>
+face000.png 447 1707 36 26" frameX="-6" frameY="-7" frameWidth="58" frameHeight="58"/>
+face001.png 841 1417 34 30" frameX="-9" frameY="-3" frameWidth="58" frameHeight="58"/>
+face002.png 1742 155 30 30" frameX="-12" frameY="-4" frameWidth="58" frameHeight="58"/>
+face003.png 1742 211 30 24" frameX="-12" frameY="-9" frameWidth="58" frameHeight="58"/>
+face004.png 867 1365 32 30" frameX="-10" frameY="-5" frameWidth="58" frameHeight="58"/>
+face005.png 832 1369 34 30" frameX="-8" frameY="-3" frameWidth="58" frameHeight="58"/>
+face006.png 1098 1658 32 28" frameX="-10" frameY="-5" frameWidth="58" frameHeight="58"/>
+face007.png 484 1707 32 26" frameX="-9" frameY="-7" frameWidth="58" frameHeight="58"/>
+face008.png 410 1707 36 26" frameX="-9" frameY="-8" frameWidth="58" frameHeight="58"/>
+face009.png 876 1417 32 30" frameX="-10" frameY="-5" frameWidth="58" frameHeight="58"/>
+image000.png 723 1 360 90"/>
+image001.png 721 633 222 92"/>
+image002.png 1218 961 38 66"/>
+image003.png 1445 415 264 304"/>
+image004.png 242 845 148 20" frameX="0" frameY="-3" frameWidth="148" frameHeight="26"/>
+image005.png 924 1396 18 16" frameX="0" frameY="-4" frameWidth="20" frameHeight="24"/>
+image006.png 977 1619 18 18" frameX="0" frameY="-1" frameWidth="20" frameHeight="24"/>
+image007.png 652 1621 18 22" frameX="0" frameY="-1" frameWidth="20" frameHeight="24"/>
+image008.png 958 1619 18 18" frameX="0" frameY="-3" frameWidth="20" frameHeight="24"/>
+image009.png 1518 1667 26 14" frameX="-14" frameY="-5" frameWidth="54" frameHeight="24"/>
+image010.png 1585 1537 24 14" frameX="-15" frameY="-5" frameWidth="54" frameHeight="24"/>
+image011.png 1508 1757 26 14" frameX="-13" frameY="-5" frameWidth="54" frameHeight="24"/>
+image012.png 1508 1742 26 14" frameX="-13" frameY="-5" frameWidth="54" frameHeight="24"/>
+image013.png 1515 1712 26 14" frameX="-13" frameY="-5" frameWidth="54" frameHeight="24"/>
+image014.png 1508 1727 26 14" frameX="-13" frameY="-5" frameWidth="54" frameHeight="24"/>
+image015.png 686 1705 18 22" frameX="0" frameY="-1" frameWidth="20" frameHeight="24"/>
+image016.png 667 1705 18 22" frameX="0" frameY="-1" frameWidth="20" frameHeight="24"/>
+image017.png 976 1699 18 18" frameX="-1" frameY="-3" frameWidth="20" frameHeight="24"/>
+image018.png 957 1699 18 18" frameX="-1" frameY="-2" frameWidth="20" frameHeight="24"/>
+image019.png 938 1699 18 18" frameX="0" frameY="-3" frameWidth="20" frameHeight="24"/>
+image020.png 939 1621 18 18" frameX="0" frameY="-3" frameWidth="20" frameHeight="24"/>
+image021.png 1531 1542 26 14" frameX="-13" frameY="-5" frameWidth="54" frameHeight="24"/>
+image022.png 1446 1437 50 14" frameX="-1" frameY="-5" frameWidth="54" frameHeight="24"/>
+image023.png 1427 1492 50 14" frameX="-1" frameY="-5" frameWidth="54" frameHeight="24"/>
+image024.png 1542 1512 26 14" frameX="-13" frameY="-5" frameWidth="54" frameHeight="24"/>
+image025.png 1392 947 10 24"/>
+image026.png 790 1420 16 20"/>
+image027.png 668 754 52 52" frameX="-3" frameY="-3" frameWidth="58" frameHeight="58"/>
+image028.png 234 1350 46 52" frameX="-1" frameY="-1" frameWidth="48" frameHeight="54"/>
+image029.png 905 1396 18 16" frameX="0" frameY="-4" frameWidth="20" frameHeight="24"/>
+image030.png 914 1330 18 16" frameX="0" frameY="-4" frameWidth="20" frameHeight="24"/>
+image031.png 886 1396 18 16" frameX="0" frameY="-4" frameWidth="20" frameHeight="24"/>
+image032.png 919 1699 18 18" frameX="0" frameY="-3" frameWidth="20" frameHeight="24"/>
+image033.png 900 1699 18 18" frameX="0" frameY="-2" frameWidth="20" frameHeight="24"/>
+image034.png 881 1699 18 18" frameX="0" frameY="-2" frameWidth="20" frameHeight="24"/>
+image035.png 920 1621 18 18" frameX="0" frameY="-3" frameWidth="20" frameHeight="24"/>
+image036.png 901 1621 18 18" frameX="0" frameY="-2" frameWidth="20" frameHeight="24"/>
+image037.png 723 525 360 62"/>
+image038.png 1715 442 2 8"/>
+image039.png 668 701 52 52" frameX="-3" frameY="-3" frameWidth="58" frameHeight="58"/>
+image040.png 639 1728 44 44"/>
+image041.png 172 1403 118 318"/>
+image042.png 362 1 360 160"/>
+image043.png 1 602 240 318"/>
+image044.png 1063 1494 12 12" frameX="-2" frameY="-3" frameWidth="18" frameHeight="18"/>
+image045.png 510 1734 44 36" frameX="0" frameY="-4" frameWidth="44" frameHeight="44"/>
+image046.png 882 1621 18 18" frameX="0" frameY="-1" frameWidth="20" frameHeight="24"/>
+image047.png 1080 746 170 40"/>
+image048.png 1218 894 38 66"/>
+image049.png 1715 433 2 8"/>
+image050.png 862 1699 18 18" frameX="0" frameY="-1" frameWidth="20" frameHeight="24"/>
+image051.png 895 1330 18 16" frameX="0" frameY="-4" frameWidth="20" frameHeight="24"/>
+image052.png 1251 753 4 6"/>
+image053.png 1183 1685 14 18" frameX="-3" frameY="-3" frameWidth="20" frameHeight="24"/>
+image054.png 1242 1423 8 8"/>
+image055.png 1349 674 8 4" frameX="0" frameY="-2" frameWidth="8" frameHeight="8"/>
+image056.png 1231 1408 8 8"/>
+image057.png 1261 1366 8 8"/>
+image058.png 693 688 14 12" frameX="-19" frameY="-13" frameWidth="168" frameHeight="38"/>
+image059.png 464 736 182 52"/>
+image060.png 148 991 92 18" frameX="-14" frameY="-9" frameWidth="168" frameHeight="38"/>
+image062.png 1081 619 182 34"/>
+image063.png 1 1 360 160"/>
+image064.png 1262 680 180 26"/>
+image065.png 998 1494 12 12"/>
+image066.png 721 869 150 40"/>
+image067.png 1081 654 180 34" frameX="0" frameY="0" frameWidth="182" frameHeight="34"/>
+image068.png 1080 689 178 24"/>
+image069.png 1224 1749 44 16"/>
+image070.png 1084 535 264 66"/>
+image071.png 646 947 44 16"/>
+image072.png 457 1014 6 12"/>
+image073.png 548 1403 24 18"/>
+image074.png 1746 1375 26 26"/>
+image075.png 843 1699 18 18"/>
+image076.png 1320 619 6 6"/>
+image077.png 1715 460 2 2"/>
+image078.png 1428 786 16 30"/>
+image079.png 1742 1402 27 21"/>
+image080.png 1718 381 23 29"/>
+image081.png 648 1705 18 22"/>
+image082.png 457 1001 6 12"/>
+image083.png 1349 535 94 138"/>
+image084.png 144 1728 44 44"/>
+image085.png 1531 1527 26 14" frameX="-14" frameY="-5" frameWidth="54" frameHeight="24"/>
+image086.png 868 957 134 30"/>
+image087.png 148 1358 44 44"/>
+image088.png 1257 741 170 108"/>
+image089.png 1689 1248 68 14" frameX="-14" frameY="-6" frameWidth="96" frameHeight="24"/>
+image090.png 1689 1233 68 14" frameX="-14" frameY="-6" frameWidth="96" frameHeight="24"/>
+image091.png 991 1314 68 14" frameX="-14" frameY="-6" frameWidth="96" frameHeight="24"/>
+image092.png 991 1314 68 14" frameX="-14" frameY="-6" frameWidth="96" frameHeight="24"/>
+image093.png 1066 1617 16 18" frameX="-14" frameY="-14" frameWidth="44" frameHeight="44"/>
+image094.png 985 1494 12 12"/>
+image095.png 1313 619 6 6"/>
+image096.png 1225 1483 8 8"/>
+image097.png 1418 674 4 4"/>
+image098.png 991 1024 10 34"/>
+image099.png 1306 619 6 6"/>
+image100.png 1715 457 2 2"/>
+image101.png 639 1385 32 36" frameX="-11" frameY="-10" frameWidth="54" frameHeight="54"/>
+image102.png 465 1734 44 36" frameX="0" frameY="-4" frameWidth="44" frameHeight="44"/>
+image103.png 1168 1685 14 18" frameX="-3" frameY="-3" frameWidth="20" frameHeight="24"/>
+image104.png 805 1701 18 20" frameX="0" frameY="-1" frameWidth="20" frameHeight="24"/>
+image105.png 824 1699 18 18" frameX="-1" frameY="-4" frameWidth="20" frameHeight="24"/>
+image106.png 863 1621 18 18" frameX="-1" frameY="-3" frameWidth="20" frameHeight="24"/>
+image107.png 844 1621 18 18" frameX="-1" frameY="-4" frameWidth="20" frameHeight="24"/>
+image108.png 457 980 6 20"/>
+image109.png 778 1621 8 20"/>
+image110.png 889 1465 8 28"/>
+image111.png 223 1304 10 28"/>
+image112.png 972 1494 12 12"/>
+image113.png 876 1465 12 28"/>
+image114.png 1060 1299 10 20"/>
+image115.png 556 1707 12 25"/>
+image116.png 457 957 6 22"/>
+image117.png 1216 1483 8 8"/>
+image118.png 611 1621 18 24"/>
+image119.png 592 1621 18 24"/>
+image120.png 1491 1697 26 14"/>
+image121.png 1400 1310 42 46" frameX="-31" frameY="-14" frameWidth="100" frameHeight="100"/>
+image122.png 892 726 50 60" frameX="-23" frameY="-15" frameWidth="100" frameHeight="100"/>
+image123.png 646 807 74 50" frameX="-17" frameY="-27" frameWidth="100" frameHeight="100"/>
+image124.png 646 858 74 28" frameX="-17" frameY="-49" frameWidth="100" frameHeight="100"/>
+image125.png 148 921 92 40" frameX="-8" frameY="-38" frameWidth="100" frameHeight="100"/>
+image126.png 879 1448 18 16"/>
+image127.png 543 1707 12 26" frameX="-15" frameY="-3" frameWidth="42" frameHeight="34"/>
+image128.png 1207 1483 8 8"/>
+image129.png 1413 674 4 4"/>
+image130.png 1198 1483 8 8"/>
+image131.png 1715 454 2 2"/>
+image132.png 1715 457 2 2"/>
+image133.png 1742 87 30 34" frameX="-12" frameY="-10" frameWidth="54" frameHeight="54"/>
+image134.png 1570 1697 14 14" frameX="-20" frameY="-20" frameWidth="54" frameHeight="54"/>
+image135.png 974 1363 14 30" frameX="-20" frameY="-12" frameWidth="54" frameHeight="54"/>
+image136.png 1742 186 30 24" frameX="-12" frameY="-14" frameWidth="54" frameHeight="54"/>
+image137.png 691 947 26 16" frameX="-14" frameY="-18" frameWidth="54" frameHeight="54"/>
+image138.png 629 1705 18 22" frameX="-18" frameY="-15" frameWidth="54" frameHeight="54"/>
+image139.png 959 1494 12 12" frameX="-20" frameY="-20" frameWidth="54" frameHeight="54"/>
+image140.png 825 1621 18 18" frameX="-18" frameY="-18" frameWidth="54" frameHeight="54"/>
+image141.png 729 1724 50 48" frameX="-2" frameY="-4" frameWidth="54" frameHeight="54"/>
+image142.png 1193 1360 40 14" frameX="-16" frameY="-3" frameWidth="60" frameHeight="20"/>
+image143.png 1402 1244 40 14" frameX="-16" frameY="-3" frameWidth="60" frameHeight="20"/>
+image145.png 1572 1667 14 14" frameX="-20" frameY="-20" frameWidth="54" frameHeight="54"/>
+image146.png 786 1701 18 20"/>
+image147.png 765 1621 12 20"/>
+image148.png 1392 1041 10 20"/>
+image149.png 706 1621 20 20"/>
+image150.png 806 1621 18 18"/>
+image151.png 787 1621 18 18" frameX="0" frameY="-3" frameWidth="20" frameHeight="24"/>
+image152.png 780 1724 48 48" frameX="-1" frameY="-1" frameWidth="54" frameHeight="54"/>
+image153.png 752 1422 18 18"/>
+image154.png 733 1422 18 18"/>
+image155.png 529 1621 24 24" frameX="-17" frameY="-8" frameWidth="58" frameHeight="58"/>
+image156.png 1299 619 6 6"/>
+image157.png 1189 1483 8 8"/>
+image158.png 1408 674 4 4"/>
+image159.png 1046 1695 16 18" frameX="-2" frameY="-1" frameWidth="20" frameHeight="20"/>
+image160.png 946 1494 12 12"/>
+image161.png 99 1728 44 44"/>
+image162.png 714 1422 18 18" frameX="0" frameY="-3" frameWidth="20" frameHeight="24"/>
+image163.png 695 1422 18 18" frameX="0" frameY="-3" frameWidth="20" frameHeight="24"/>
+image164.png 676 1422 18 18" frameX="0" frameY="-3" frameWidth="20" frameHeight="24"/>
+image165.png 657 1422 18 18" frameX="0" frameY="-2" frameWidth="20" frameHeight="24"/>
+image166.png 594 1385 44 36" frameX="0" frameY="-4" frameWidth="44" frameHeight="44"/>
+image167.png 742 1369 44 50"/>
+image168.png 1379 1178 22 24" frameX="-11" frameY="-8" frameWidth="44" frameHeight="50"/>
+image169.png 124 1163 16 8" frameX="-13" frameY="-33" frameWidth="44" frameHeight="50"/>
+image170.png 918 840 24 8" frameX="-10" frameY="-33" frameWidth="44" frameHeight="50"/>
+image171.png 1098 1751 26 8" frameX="-9" frameY="-33" frameWidth="44" frameHeight="50"/>
+image172.png 1742 276 30 8" frameX="-6" frameY="-33" frameWidth="44" frameHeight="50"/>
+image173.png 165 1349 28 8" frameX="-8" frameY="-33" frameWidth="44" frameHeight="50"/>
+image174.png 136 1349 28 8" frameX="-8" frameY="-33" frameWidth="44" frameHeight="50"/>
+image175.png 136 1349 28 8" frameX="-8" frameY="-33" frameWidth="44" frameHeight="50"/>
+image176.png 889 840 28 8" frameX="-8" frameY="-33" frameWidth="44" frameHeight="50"/>
+image177.png 1491 1682 26 14" frameX="-8" frameY="-13" frameWidth="44" frameHeight="50"/>
+image179.png 1710 603 60 40"/>
+image180.png 1445 242 296 138"/>
+image181.png 1445 1 296 240"/>
+info000.png 1404 1637 48 14" frameX="-52" frameY="-3" frameWidth="116" frameHeight="20"/>
+info001.png 1454 1522 48 14" frameX="-52" frameY="-3" frameWidth="116" frameHeight="20"/>
+info002.png 1443 1537 48 14" frameX="-52" frameY="-3" frameWidth="116" frameHeight="20"/>
+info003.png 1443 1577 48 14" frameX="-52" frameY="-3" frameWidth="116" frameHeight="20"/>
+info004.png 1443 1562 48 14" frameX="-52" frameY="-3" frameWidth="116" frameHeight="20"/>
+info005.png 1427 1477 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info006.png 1403 1522 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info007.png 1403 1507 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info008.png 1392 1537 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info009.png 1392 1577 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info010.png 1392 1562 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info011.png 1360 1607 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info012.png 1360 1592 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info013.png 1353 1633 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info014.png 1352 1751 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info015.png 1347 1736 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info016.png 1323 1721 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info017.png 1323 1706 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info018.png 1323 1691 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info019.png 1395 1462 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info020.png 1395 1447 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info021.png 1376 1487 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info022.png 1352 1522 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info023.png 1352 1507 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info024.png 1341 1577 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info025.png 1341 1540 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info026.png 1341 1562 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info027.png 1309 1618 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info028.png 1309 1603 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info029.png 1302 1676 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info030.png 1531 1577 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info031.png 1531 1562 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info032.png 1526 1607 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info033.png 1526 1592 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info034.png 1507 1652 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info035.png 1596 1507 24 14" frameX="-52" frameY="-3" frameWidth="116" frameHeight="20"/>
+info036.png 1585 1522 24 14" frameX="-52" frameY="-3" frameWidth="116" frameHeight="20"/>
+info037.png 1545 1697 24 14" frameX="-52" frameY="-3" frameWidth="116" frameHeight="20"/>
+info038.png 1545 1682 24 14" frameX="-52" frameY="-3" frameWidth="116" frameHeight="20"/>
+info039.png 1585 1577 24 14" frameX="-52" frameY="-3" frameWidth="116" frameHeight="20"/>
+info040.png 1508 1742 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info041.png 1519 1622 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info042.png 1507 1637 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info043.png 1491 1667 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info044.png 1481 1757 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info045.png 1542 1512 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info046.png 1481 1742 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info047.png 1488 1712 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info048.png 1481 1727 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info049.png 1454 1757 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info050.png 1454 1742 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info051.png 1454 1727 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info052.png 1464 1697 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info053.png 1464 1682 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info054.png 1499 1607 26 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info055.png 1302 1661 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info056.png 1302 1646 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info057.png 1296 1745 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info058.png 1272 1721 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info059.png 1272 1706 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info060.png 1272 1691 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info061.png 1234 1465 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info062.png 1234 1450 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info063.png 1234 1435 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info064.png 1191 1420 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info065.png 1234 1393 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info066.png 1234 1378 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info067.png 1183 1468 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info068.png 1141 1453 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info069.png 1141 1438 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info070.png 1195 1330 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info071.png 1185 1345 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info072.png 1142 1378 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info073.png 1142 1363 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info074.png 1133 1423 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info075.png 1141 1393 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info076.png 1133 1408 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info077.png 1132 1468 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info078.png 1090 1453 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info079.png 1090 1438 50 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+info104.png 1499 1592 26 14" frameX="-44" frameY="-3" frameWidth="116" frameHeight="20"/>
+info105.png 1480 1652 26 14" frameX="-44" frameY="-3" frameWidth="116" frameHeight="20"/>
+info106.png 1492 1622 26 14" frameX="-44" frameY="-3" frameWidth="116" frameHeight="20"/>
+info107.png 1480 1637 26 14" frameX="-44" frameY="-3" frameWidth="116" frameHeight="20"/>
+info108.png 1464 1667 26 14" frameX="-44" frameY="-3" frameWidth="116" frameHeight="20"/>
+info109.png 1428 750 7 8" frameX="-12" frameY="-5" frameWidth="117" frameHeight="20"/>
+info110.png 1428 741 7 8" frameX="-12" frameY="-5" frameWidth="117" frameHeight="20"/>
+info111.png 944 633 7 8" frameX="-12" frameY="-5" frameWidth="117" frameHeight="20"/>
+info112.png 1710 424 7 8" frameX="-12" frameY="-5" frameWidth="117" frameHeight="20"/>
+info113.png 1710 415 7 8" frameX="-12" frameY="-5" frameWidth="117" frameHeight="20"/>
+item000.png 620 1705 8 24" frameX="-20" frameY="-16" frameWidth="48" frameHeight="54"/>
+item000a.png 991 1239 84 14" frameX="-16" frameY="-3" frameWidth="116" frameHeight="20"/>
+item000b.png 620 1705 8 24" frameX="-25" frameY="-17" frameWidth="58" frameHeight="58"/>
+item000c.png 1397 1432 44 14" frameX="-35" frameY="-3" frameWidth="116" frameHeight="20"/>
+item000n.png 609 1187 104 14" frameX="-5" frameY="-3" frameWidth="116" frameHeight="20"/>
+item001.png 611 1705 8 24" frameX="-20" frameY="-16" frameWidth="48" frameHeight="54"/>
+item001a.png 991 1224 84 14" frameX="-16" frameY="-3" frameWidth="116" frameHeight="20"/>
+item001b.png 611 1705 8 24" frameX="-25" frameY="-17" frameWidth="58" frameHeight="58"/>
+item001c.png 1242 1408 42 14" frameX="-36" frameY="-3" frameWidth="116" frameHeight="20"/>
+item001n.png 358 1171 104 14" frameX="-5" frameY="-3" frameWidth="116" frameHeight="20"/>
+item002.png 746 1621 18 20" frameX="-15" frameY="-19" frameWidth="48" frameHeight="54"/>
+item002a.png 1710 573 62 14" frameX="-26" frameY="-3" frameWidth="116" frameHeight="20"/>
+item002b.png 746 1621 18 20" frameX="-20" frameY="-21" frameWidth="58" frameHeight="58"/>
+item002c.png 1397 1417 44 14" frameX="-35" frameY="-3" frameWidth="116" frameHeight="20"/>
+item002n.png 1689 1218 80 14" frameX="-17" frameY="-3" frameWidth="116" frameHeight="20"/>
+item003.png 1453 1652 26 14" frameX="-11" frameY="-21" frameWidth="48" frameHeight="54"/>
+item003a.png 1710 573 62 14" frameX="-26" frameY="-3" frameWidth="116" frameHeight="20"/>
+item003b.png 1453 1652 26 14" frameX="-16" frameY="-23" frameWidth="58" frameHeight="58"/>
+item003c.png 1397 1402 44 14" frameX="-35" frameY="-3" frameWidth="116" frameHeight="20"/>
+item003n.png 991 1269 80 14" frameX="-17" frameY="-3" frameWidth="116" frameHeight="20"/>
+item004.png 1428 842 16 24" frameX="-16" frameY="-16" frameWidth="48" frameHeight="54"/>
+item004a.png 1710 573 62 14" frameX="-26" frameY="-3" frameWidth="116" frameHeight="20"/>
+item004b.png 1428 842 16 24" frameX="-21" frameY="-18" frameWidth="58" frameHeight="58"/>
+item004c.png 1397 1387 44 14" frameX="-35" frameY="-3" frameWidth="116" frameHeight="20"/>
+item004n.png 889 910 66 14" frameX="-25" frameY="-3" frameWidth="116" frameHeight="20"/>
+item005.png 117 1334 18 22" frameX="-15" frameY="-16" frameWidth="48" frameHeight="54"/>
+item005a.png 991 1239 84 14" frameX="-16" frameY="-3" frameWidth="116" frameHeight="20"/>
+item005b.png 117 1334 18 22" frameX="-20" frameY="-18" frameWidth="58" frameHeight="58"/>
+item005c.png 889 895 66 14" frameX="-28" frameY="-3" frameWidth="116" frameHeight="20"/>
+item005n.png 358 1156 104 14" frameX="-5" frameY="-3" frameWidth="116" frameHeight="20"/>
+item006.png 573 1621 18 24" frameX="-15" frameY="-16" frameWidth="48" frameHeight="54"/>
+item006a.png 124 1319 98 14" frameX="-8" frameY="-3" frameWidth="116" frameHeight="20"/>
+item006b.png 573 1621 18 24" frameX="-20" frameY="-18" frameWidth="58" frameHeight="58"/>
+item006c.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="116" frameHeight="20"/>
+item006n.png 358 1141 104 14" frameX="-5" frameY="-3" frameWidth="116" frameHeight="20"/>
+item007.png 928 1413 18 30" frameX="-15" frameY="-12" frameWidth="48" frameHeight="54"/>
+item007a.png 991 1119 86 14" frameX="-14" frameY="-3" frameWidth="116" frameHeight="20"/>
+item007n.png 358 1126 104 14" frameX="-5" frameY="-3" frameWidth="116" frameHeight="20"/>
+item008.png 923 1444 18 30" frameX="-15" frameY="-12" frameWidth="48" frameHeight="54"/>
+item008a.png 991 1119 86 14" frameX="-14" frameY="-3" frameWidth="116" frameHeight="20"/>
+item008n.png 609 1172 104 14" frameX="-5" frameY="-3" frameWidth="116" frameHeight="20"/>
+item009.png 925 1363 18 30" frameX="-15" frameY="-12" frameWidth="48" frameHeight="54"/>
+item009a.png 991 1119 86 14" frameX="-14" frameY="-3" frameWidth="116" frameHeight="20"/>
+item009n.png 609 1157 104 14" frameX="-5" frameY="-3" frameWidth="116" frameHeight="20"/>
+item010.png 909 1413 18 30" frameX="-15" frameY="-12" frameWidth="48" frameHeight="54"/>
+item010a.png 991 1119 86 14" frameX="-14" frameY="-3" frameWidth="116" frameHeight="20"/>
+item010n.png 609 1142 104 14" frameX="-5" frameY="-3" frameWidth="116" frameHeight="20"/>
+item011.png 98 1334 18 22" frameX="-15" frameY="-16" frameWidth="48" frameHeight="54"/>
+item011a.png 991 1224 84 14" frameX="-16" frameY="-3" frameWidth="116" frameHeight="20"/>
+item011b.png 98 1334 18 22" frameX="-20" frameY="-18" frameWidth="58" frameHeight="58"/>
+item011c.png 889 880 66 14" frameX="-27" frameY="-3" frameWidth="116" frameHeight="20"/>
+item011n.png 609 1127 104 14" frameX="-5" frameY="-3" frameWidth="116" frameHeight="20"/>
+item012.png 900 1365 24 30" frameX="-12" frameY="-13" frameWidth="48" frameHeight="54"/>
+item012a.png 991 1209 84 14" frameX="-16" frameY="-3" frameWidth="116" frameHeight="20"/>
+item012b.png 900 1365 24 30" frameX="-17" frameY="-14" frameWidth="58" frameHeight="58"/>
+item012c.png 889 865 66 14" frameX="-27" frameY="-3" frameWidth="116" frameHeight="20"/>
+item012n.png 610 1112 104 14" frameX="-5" frameY="-3" frameWidth="116" frameHeight="20"/>
+item013.png 1748 1307 24 30" frameX="-12" frameY="-13" frameWidth="48" frameHeight="54"/>
+item013a.png 991 1194 84 14" frameX="-16" frameY="-3" frameWidth="116" frameHeight="20"/>
+item013b.png 1748 1307 24 30" frameX="-17" frameY="-14" frameWidth="58" frameHeight="58"/>
+item013c.png 889 850 66 14" frameX="-28" frameY="-3" frameWidth="116" frameHeight="20"/>
+item013n.png 610 1097 104 14" frameX="-5" frameY="-3" frameWidth="116" frameHeight="20"/>
+item014.png 1 1334 20 22" frameX="-14" frameY="-16" frameWidth="48" frameHeight="54"/>
+item014a.png 646 932 74 14" frameX="-20" frameY="-3" frameWidth="116" frameHeight="20"/>
+item014b.png 1 1334 20 22" frameX="-19" frameY="-18" frameWidth="58" frameHeight="58"/>
+item014c.png 1397 1372 44 14" frameX="-35" frameY="-3" frameWidth="116" frameHeight="20"/>
+item014n.png 610 1082 104 14" frameX="-5" frameY="-3" frameWidth="116" frameHeight="20"/>
+item015.png 647 784 20 22" frameX="-14" frameY="-16" frameWidth="48" frameHeight="54"/>
+item015a.png 389 942 74 14" frameX="-20" frameY="-3" frameWidth="116" frameHeight="20"/>
+item015b.png 647 784 20 22" frameX="-19" frameY="-18" frameWidth="58" frameHeight="58"/>
+item015c.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="116" frameHeight="20"/>
+item015n.png 610 1067 104 14" frameX="-5" frameY="-3" frameWidth="116" frameHeight="20"/>
+item016.png 647 761 20 22" frameX="-14" frameY="-16" frameWidth="48" frameHeight="54"/>
+item016a.png 646 917 74 14" frameX="-20" frameY="-3" frameWidth="116" frameHeight="20"/>
+item016b.png 647 761 20 22" frameX="-19" frameY="-18" frameWidth="58" frameHeight="58"/>
+item016c.png 1397 1357 44 14" frameX="-35" frameY="-3" frameWidth="116" frameHeight="20"/>
+item016n.png 611 1052 104 14" frameX="-5" frameY="-3" frameWidth="116" frameHeight="20"/>
+item017.png 602 1705 8 24" frameX="-20" frameY="-16" frameWidth="48" frameHeight="54"/>
+item017a.png 136 1334 86 14" frameX="-14" frameY="-3" frameWidth="116" frameHeight="20"/>
+item017b.png 602 1705 8 24" frameX="-25" frameY="-18" frameWidth="58" frameHeight="58"/>
+item017c.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="116" frameHeight="20"/>
+item017n.png 611 1037 104 14" frameX="-5" frameY="-3" frameWidth="116" frameHeight="20"/>
+item999.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="116" frameHeight="20"/>
+main999.png 1180 1483 8 8" frameX="-35" frameY="-31" frameWidth="54" frameHeight="54"/>
+map001.png 705 1644 58 58"/>
+map002.png 704 1441 58 58"/>
+map003.png 645 1441 58 58"/>
+map004.png 586 1441 58 58"/>
+map005.png 646 1646 58 58"/>
+map006.png 647 1562 58 58"/>
+map007.png 587 1646 58 58"/>
+map008.png 588 1562 58 58"/>
+map010.png 529 1562 58 58"/>
+map011.png 528 1648 58 58"/>
+map012.png 469 1648 58 58"/>
+map013.png 410 1648 58 58"/>
+map014.png 527 1441 58 58"/>
+map015.png 468 1442 58 58"/>
+map016.png 409 1442 58 58"/>
+map017.png 350 1442 58 58"/>
+map100.png 1084 446 360 88"/>
+map101.png 362 506 360 76"/>
+map102.png 153 1403 18 324"/>
+map103.png 134 1403 18 324"/>
+map104.png 723 359 360 88"/>
+map105.png 1 506 360 76"/>
+map106.png 115 1403 18 324"/>
+map107.png 96 1403 18 324"/>
+map108.png 362 340 360 88"/>
+map109.png 77 1403 18 324"/>
+map110.png 58 1403 18 324"/>
+map111.png 723 448 360 76"/>
+map112.png 362 429 360 76"/>
+map113.png 39 1403 18 324"/>
+map114.png 20 1403 18 324"/>
+map115.png 1 340 360 88"/>
+map116.png 1084 357 360 88"/>
+map117.png 723 270 360 88"/>
+map118.png 362 251 360 88"/>
+map119.png 1 251 360 88"/>
+map120.png 1084 268 360 88"/>
+map121.png 1 429 360 76"/>
+map122.png 1 1403 18 324"/>
+map123.png 849 981 18 324"/>
+map124.png 723 181 360 88"/>
+map125.png 362 162 360 88"/>
+map126.png 1 162 360 88"/>
+map127.png 1084 179 360 88"/>
+map128.png 723 92 360 88"/>
+map129.png 1084 90 360 88"/>
+map130.png 291 1442 58 58"/>
+map131.png 1681 1499 58 58"/>
+map132.png 1681 1440 58 58"/>
+map133.png 1683 1381 58 58"/>
+map134.png 1687 1322 58 58"/>
+map135.png 1689 1263 58 58"/>
+map136.png 1710 718 58 58"/>
+map137.png 1710 659 58 58"/>
+map138.png 1084 1 360 88"/>
+minor000.png 949 1475 16 16" frameX="-5" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor000a.png 966 1473 12 16" frameX="-17" frameY="-17" frameWidth="48" frameHeight="54"/>
+minor000b.png 966 1473 12 16" frameX="-22" frameY="-19" frameWidth="58" frameHeight="58"/>
+minor001.png 860 1448 18 16" frameX="-3" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor001a.png 1014 1330 14 16" frameX="-15" frameY="-17" frameWidth="48" frameHeight="54"/>
+minor001b.png 1014 1330 14 16" frameX="-20" frameY="-19" frameWidth="58" frameHeight="58"/>
+minor002.png 943 1394 16 16" frameX="-5" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor002a.png 1029 1330 12 16" frameX="-17" frameY="-17" frameWidth="48" frameHeight="54"/>
+minor002b.png 1029 1330 12 16" frameX="-22" frameY="-19" frameWidth="58" frameHeight="58"/>
+minor003.png 967 1330 16 16" frameX="-5" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor003a.png 999 1330 14 16" frameX="-16" frameY="-18" frameWidth="48" frameHeight="54"/>
+minor003b.png 999 1330 14 16" frameX="-21" frameY="-20" frameWidth="58" frameHeight="58"/>
+minor004.png 1270 1363 16 14" frameX="-5" frameY="-31" frameWidth="58" frameHeight="58"/>
+minor004a.png 1548 1452 12 14" frameX="-17" frameY="-19" frameWidth="48" frameHeight="54"/>
+minor004b.png 1548 1452 12 14" frameX="-22" frameY="-21" frameWidth="58" frameHeight="58"/>
+minor005.png 1029 1695 16 18" frameX="-5" frameY="-27" frameWidth="58" frameHeight="58"/>
+minor005a.png 1211 1685 12 18" frameX="-16" frameY="-16" frameWidth="48" frameHeight="54"/>
+minor005b.png 1211 1685 12 18" frameX="-21" frameY="-18" frameWidth="58" frameHeight="58"/>
+minor006.png 950 1330 16 16" frameX="-5" frameY="-31" frameWidth="58" frameHeight="58"/>
+minor006a.png 984 1330 14 16" frameX="-17" frameY="-18" frameWidth="48" frameHeight="54"/>
+minor006b.png 984 1330 14 16" frameX="-22" frameY="-20" frameWidth="58" frameHeight="58"/>
+minor007.png 1012 1695 16 18" frameX="-5" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor007a.png 1198 1685 12 18" frameX="-16" frameY="-16" frameWidth="48" frameHeight="54"/>
+minor007b.png 1198 1685 12 18" frameX="-21" frameY="-18" frameWidth="58" frameHeight="58"/>
+minor008.png 1224 1315 18 14" frameX="-3" frameY="-31" frameWidth="58" frameHeight="58"/>
+minor008a.png 1570 1682 14 14" frameX="-15" frameY="-19" frameWidth="48" frameHeight="54"/>
+minor008b.png 1570 1682 14 14" frameX="-20" frameY="-21" frameWidth="58" frameHeight="58"/>
+minor009.png 841 1448 18 16" frameX="-3" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor009a.png 960 1394 14 16" frameX="-15" frameY="-17" frameWidth="48" frameHeight="54"/>
+minor009b.png 960 1394 14 16" frameX="-20" frameY="-19" frameWidth="58" frameHeight="58"/>
+minor010.png 1246 1330 16 14" frameX="-5" frameY="-31" frameWidth="58" frameHeight="58"/>
+minor010a.png 1548 1437 12 14" frameX="-17" frameY="-19" frameWidth="48" frameHeight="54"/>
+minor010b.png 1548 1437 12 14" frameX="-22" frameY="-21" frameWidth="58" frameHeight="58"/>
+minor011.png 933 1330 16 16" frameX="-5" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor011a.png 580 1385 12 16" frameX="-17" frameY="-18" frameWidth="48" frameHeight="54"/>
+minor011b.png 580 1385 12 16" frameX="-22" frameY="-20" frameWidth="58" frameHeight="58"/>
+minor100.png 647 736 20 24" frameX="-5" frameY="-26" frameWidth="58" frameHeight="58"/>
+minor100a.png 647 736 20 24" frameX="-14" frameY="-13" frameWidth="48" frameHeight="54"/>
+minor100b.png 647 736 20 24" frameX="-19" frameY="-15" frameWidth="58" frameHeight="58"/>
+minor101.png 1379 1308 20 20" frameX="-6" frameY="-28" frameWidth="58" frameHeight="58"/>
+minor101a.png 1379 1308 20 20" frameX="-14" frameY="-15" frameWidth="48" frameHeight="54"/>
+minor101b.png 1379 1308 20 20" frameX="-19" frameY="-17" frameWidth="58" frameHeight="58"/>
+minor102.png 1379 1287 20 20" frameX="-6" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor102a.png 1379 1287 20 20" frameX="-14" frameY="-15" frameWidth="48" frameHeight="54"/>
+minor102b.png 1379 1287 20 20" frameX="-19" frameY="-17" frameWidth="58" frameHeight="58"/>
+minor103.png 727 1621 18 20" frameX="-7" frameY="-28" frameWidth="58" frameHeight="58"/>
+minor103a.png 727 1621 18 20" frameX="-15" frameY="-14" frameWidth="48" frameHeight="54"/>
+minor103b.png 727 1621 18 20" frameX="-20" frameY="-16" frameWidth="58" frameHeight="58"/>
+minor104.png 79 1334 18 22" frameX="-5" frameY="-27" frameWidth="58" frameHeight="58"/>
+minor104a.png 79 1334 18 22" frameX="-15" frameY="-13" frameWidth="48" frameHeight="54"/>
+minor104b.png 79 1334 18 22" frameX="-20" frameY="-15" frameWidth="58" frameHeight="58"/>
+minor105.png 1428 817 16 24" frameX="-7" frameY="-27" frameWidth="58" frameHeight="58"/>
+minor105a.png 1428 817 16 24" frameX="-16" frameY="-12" frameWidth="48" frameHeight="54"/>
+minor105b.png 1428 817 16 24" frameX="-21" frameY="-14" frameWidth="58" frameHeight="58"/>
+minor106.png 1379 1266 20 20" frameX="-6" frameY="-28" frameWidth="58" frameHeight="58"/>
+minor106a.png 1379 1266 20 20" frameX="-14" frameY="-15" frameWidth="48" frameHeight="54"/>
+minor106b.png 1379 1266 20 20" frameX="-19" frameY="-17" frameWidth="58" frameHeight="58"/>
+minor107.png 638 1422 18 18" frameX="-7" frameY="-30" frameWidth="58" frameHeight="58"/>
+minor107a.png 638 1422 18 18" frameX="-15" frameY="-16" frameWidth="48" frameHeight="54"/>
+minor107b.png 638 1422 18 18" frameX="-20" frameY="-18" frameWidth="58" frameHeight="58"/>
+minor108.png 554 1621 18 24" frameX="-6" frameY="-28" frameWidth="58" frameHeight="58"/>
+minor108a.png 554 1621 18 24" frameX="-15" frameY="-12" frameWidth="48" frameHeight="54"/>
+minor108b.png 554 1621 18 24" frameX="-20" frameY="-14" frameWidth="58" frameHeight="58"/>
+minor109.png 832 1301 16 22" frameX="-7" frameY="-28" frameWidth="58" frameHeight="58"/>
+minor109a.png 832 1301 16 22" frameX="-16" frameY="-13" frameWidth="48" frameHeight="54"/>
+minor109b.png 832 1301 16 22" frameX="-21" frameY="-15" frameWidth="58" frameHeight="58"/>
+minor110.png 1379 1245 20 20" frameX="-6" frameY="-28" frameWidth="58" frameHeight="58"/>
+minor110a.png 1379 1245 20 20" frameX="-14" frameY="-15" frameWidth="48" frameHeight="54"/>
+minor110b.png 1379 1245 20 20" frameX="-19" frameY="-17" frameWidth="58" frameHeight="58"/>
+minor111.png 1379 1203 22 20" frameX="-5" frameY="-28" frameWidth="58" frameHeight="58"/>
+minor111a.png 1379 1203 22 20" frameX="-13" frameY="-15" frameWidth="48" frameHeight="54"/>
+minor111b.png 1379 1203 22 20" frameX="-18" frameY="-17" frameWidth="58" frameHeight="58"/>
+minor200.png 1153 1685 14 18" frameX="-10" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor200a.png 1153 1685 14 18" frameX="-17" frameY="-16" frameWidth="48" frameHeight="54"/>
+minor200b.png 1153 1685 14 18" frameX="-22" frameY="-18" frameWidth="58" frameHeight="58"/>
+minor201.png 995 1695 16 18" frameX="-9" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor201a.png 995 1695 16 18" frameX="-16" frameY="-16" frameWidth="48" frameHeight="54"/>
+minor201b.png 995 1695 16 18" frameX="-21" frameY="-18" frameWidth="58" frameHeight="58"/>
+minor202.png 1138 1687 14 18" frameX="-10" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor202a.png 1138 1687 14 18" frameX="-17" frameY="-16" frameWidth="48" frameHeight="54"/>
+minor202b.png 1138 1687 14 18" frameX="-22" frameY="-18" frameWidth="58" frameHeight="58"/>
+minor203.png 1123 1687 14 18" frameX="-10" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor203a.png 1123 1687 14 18" frameX="-17" frameY="-16" frameWidth="48" frameHeight="54"/>
+minor203b.png 1123 1687 14 18" frameX="-22" frameY="-18" frameWidth="58" frameHeight="58"/>
+minor204.png 1108 1687 14 18" frameX="-10" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor204a.png 1108 1687 14 18" frameX="-17" frameY="-16" frameWidth="48" frameHeight="54"/>
+minor204b.png 1108 1687 14 18" frameX="-22" frameY="-18" frameWidth="58" frameHeight="58"/>
+minor205.png 1093 1687 14 18" frameX="-10" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor205a.png 1093 1687 14 18" frameX="-17" frameY="-16" frameWidth="48" frameHeight="54"/>
+minor205b.png 1093 1687 14 18" frameX="-22" frameY="-18" frameWidth="58" frameHeight="58"/>
+minor206.png 1049 1617 16 18" frameX="-8" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor206a.png 1049 1617 16 18" frameX="-16" frameY="-16" frameWidth="48" frameHeight="54"/>
+minor206b.png 1049 1617 16 18" frameX="-21" frameY="-18" frameWidth="58" frameHeight="58"/>
+minor207.png 1078 1687 14 18" frameX="-10" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor207a.png 1078 1687 14 18" frameX="-17" frameY="-16" frameWidth="48" frameHeight="54"/>
+minor207b.png 1078 1687 14 18" frameX="-22" frameY="-18" frameWidth="58" frameHeight="58"/>
+minor208.png 1032 1617 16 18" frameX="-9" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor208a.png 1032 1617 16 18" frameX="-16" frameY="-16" frameWidth="48" frameHeight="54"/>
+minor208b.png 1032 1617 16 18" frameX="-21" frameY="-18" frameWidth="58" frameHeight="58"/>
+minor209.png 1015 1617 16 18" frameX="-9" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor209a.png 1015 1617 16 18" frameX="-16" frameY="-16" frameWidth="48" frameHeight="54"/>
+minor209b.png 1015 1617 16 18" frameX="-21" frameY="-18" frameWidth="58" frameHeight="58"/>
+minor210.png 1063 1687 14 18" frameX="-10" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor210a.png 1063 1687 14 18" frameX="-17" frameY="-16" frameWidth="48" frameHeight="54"/>
+minor210b.png 1063 1687 14 18" frameX="-22" frameY="-18" frameWidth="58" frameHeight="58"/>
+minor211.png 1083 1617 14 18" frameX="-10" frameY="-29" frameWidth="58" frameHeight="58"/>
+minor211a.png 1083 1617 14 18" frameX="-17" frameY="-16" frameWidth="48" frameHeight="54"/>
+minor211b.png 1083 1617 14 18" frameX="-22" frameY="-18" frameWidth="58" frameHeight="58"/>
+minor999.png 1171 1483 8 8" frameX="-13" frameY="-33" frameWidth="58" frameHeight="58"/>
+mob000.png 1742 122 30 32" frameX="-14" frameY="-14" frameWidth="58" frameHeight="58"/>
+mob000t.png 1256 1100 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob001.png 679 632 28 36" frameX="-15" frameY="-11" frameWidth="58" frameHeight="58"/>
+mob001t.png 1567 1048 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob002.png 555 1734 38 36" frameX="-10" frameY="-11" frameWidth="58" frameHeight="58"/>
+mob002t.png 1444 1048 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob003.png 1736 1187 36 30" frameX="-11" frameY="-14" frameWidth="58" frameHeight="58"/>
+mob003t.png 868 1132 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob004.png 1740 1525 32 36" frameX="-13" frameY="-11" frameWidth="58" frameHeight="58"/>
+mob004t.png 1078 1117 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob005.png 371 1407 32 34" frameX="-13" frameY="-12" frameWidth="58" frameHeight="58"/>
+mob005t.png 1257 1043 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob006.png 1742 50 30 36" frameX="-15" frameY="-11" frameWidth="58" frameHeight="58"/>
+mob006t.png 1567 991 122 56" frameX="-24" frameY="-27" frameWidth="170" frameHeight="108"/>
+mob007.png 369 1734 38 38" frameX="-11" frameY="-11" frameWidth="58" frameHeight="58"/>
+mob007t.png 1444 991 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob008.png 1146 1652 32 32" frameX="-14" frameY="-13" frameWidth="58" frameHeight="58"/>
+mob008t.png 1567 934 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob009.png 1740 1449 32 38" frameX="-13" frameY="-10" frameWidth="58" frameHeight="58"/>
+mob009t.png 1444 934 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob010.png 1739 820 32 40" frameX="-13" frameY="-8" frameWidth="58" frameHeight="58"/>
+mob010t.png 1568 877 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob011.png 1403 1043 40 40" frameX="-9" frameY="-10" frameWidth="58" frameHeight="58"/>
+mob011t.png 1445 877 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob012.png 1739 861 32 38" frameX="-13" frameY="-10" frameWidth="58" frameHeight="58"/>
+mob012t.png 328 1350 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob013.png 291 1403 36 38" frameX="-10" frameY="-11" frameWidth="58" frameHeight="58"/>
+mob013t.png 457 1346 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob014.png 1740 1488 32 36" frameX="-12" frameY="-12" frameWidth="58" frameHeight="58"/>
+mob014t.png 868 1287 122 42" frameX="-24" frameY="-31" frameWidth="170" frameHeight="108"/>
+mob015.png 1403 916 40 44" frameX="-7" frameY="-6" frameWidth="58" frameHeight="58"/>
+mob015t.png 1072 1272 122 42" frameX="-24" frameY="-31" frameWidth="170" frameHeight="108"/>
+mob016.png 330 1734 38 38" frameX="-10" frameY="-10" frameWidth="58" frameHeight="58"/>
+mob016t.png 580 1328 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob017.png 1263 1650 38 40" frameX="-10" frameY="-8" frameWidth="58" frameHeight="58"/>
+mob017t.png 703 1312 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob018.png 1341 1371 34 40" frameX="-12" frameY="-9" frameWidth="58" frameHeight="58"/>
+mob018t.png 235 1293 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob019.png 193 1364 40 38" frameX="-11" frameY="-10" frameWidth="58" frameHeight="58"/>
+mob019t.png 457 1289 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob020.png 1403 1002 40 40" frameX="-12" frameY="-10" frameWidth="58" frameHeight="58"/>
+mob020t.png 580 1271 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob021.png 1403 961 40 40" frameX="-9" frameY="-8" frameWidth="58" frameHeight="58"/>
+mob021t.png 868 1189 122 54" frameX="-24" frameY="-27" frameWidth="170" frameHeight="108"/>
+mob022.png 1224 1652 38 44" frameX="-9" frameY="-9" frameWidth="58" frameHeight="58"/>
+mob022t.png 457 1232 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob023.png 328 1407 42 34" frameX="-8" frameY="-12" frameWidth="58" frameHeight="58"/>
+mob023t.png 1 1277 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob024.png 1402 1207 40 36" frameX="-12" frameY="-11" frameWidth="58" frameHeight="58"/>
+mob024t.png 235 1236 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob025.png 1098 1706 42 44" frameX="-8" frameY="-9" frameWidth="58" frameHeight="58"/>
+mob025t.png 1076 1174 122 54" frameX="-24" frameY="-27" frameWidth="170" frameHeight="108"/>
+mob026.png 291 1734 38 38" frameX="-12" frameY="-12" frameWidth="58" frameHeight="58"/>
+mob026t.png 1 1220 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob027.png 1227 1697 44 40" frameX="-6" frameY="-10" frameWidth="58" frameHeight="58"/>
+mob027t.png 235 1179 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob028.png 594 1732 44 40" frameX="-6" frameY="-10" frameWidth="58" frameHeight="58"/>
+mob028t.png 1 1163 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob029.png 1094 1507 48 46" frameX="-6" frameY="-6" frameWidth="58" frameHeight="58"/>
+mob029t.png 709 1255 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob030.png 1267 1562 38 42" frameX="-8" frameY="-8" frameWidth="58" frameHeight="58"/>
+mob030t.png 586 1214 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob031.png 1739 777 32 42" frameX="-12" frameY="-9" frameWidth="58" frameHeight="58"/>
+mob031t.png 714 1198 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob032.png 451 1403 42 38" frameX="-8" frameY="-10" frameWidth="58" frameHeight="58"/>
+mob032t.png 463 1175 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+mob999.png 1742 328 28 40" frameX="-15" frameY="-9" frameWidth="58" frameHeight="58"/>
+mob999t.png 1173 1315 50 14" frameX="-60" frameY="-47" frameWidth="170" frameHeight="108"/>
+ntext200.png 991 1299 68 14" frameX="-23" frameY="-3" frameWidth="116" frameHeight="20"/>
+ntext201.png 1003 987 68 14" frameX="-23" frameY="-3" frameWidth="116" frameHeight="20"/>
+ntext202.png 1003 972 68 14" frameX="-23" frameY="-3" frameWidth="116" frameHeight="20"/>
+ntext203.png 1003 957 68 14" frameX="-23" frameY="-3" frameWidth="116" frameHeight="20"/>
+ntext204.png 1283 1345 56 14" frameX="-29" frameY="-3" frameWidth="116" frameHeight="20"/>
+ntext205.png 1283 1330 56 14" frameX="-29" frameY="-3" frameWidth="116" frameHeight="20"/>
+ntext206.png 388 1062 68 14" frameX="-23" frameY="-3" frameWidth="116" frameHeight="20"/>
+ntext207.png 388 1047 68 14" frameX="-23" frameY="-3" frameWidth="116" frameHeight="20"/>
+ntext208.png 388 1032 68 14" frameX="-23" frameY="-3" frameWidth="116" frameHeight="20"/>
+ring000a.png 1376 1414 20 16" frameX="-14" frameY="-19" frameWidth="48" frameHeight="54"/>
+ring000b.png 1376 1414 20 16" frameX="-19" frameY="-21" frameWidth="58" frameHeight="58"/>
+ring001a.png 1376 1431 20 14" frameX="-14" frameY="-21" frameWidth="48" frameHeight="54"/>
+ring001b.png 1376 1431 20 14" frameX="-19" frameY="-23" frameWidth="58" frameHeight="58"/>
+ring002a.png 1376 1397 20 16" frameX="-14" frameY="-19" frameWidth="48" frameHeight="54"/>
+ring002b.png 1376 1397 20 16" frameX="-19" frameY="-21" frameWidth="58" frameHeight="58"/>
+ring003a.png 617 1422 20 18" frameX="-14" frameY="-17" frameWidth="48" frameHeight="54"/>
+ring003b.png 617 1422 20 18" frameX="-19" frameY="-19" frameWidth="58" frameHeight="58"/>
+ring004a.png 1376 1380 20 16" frameX="-14" frameY="-19" frameWidth="48" frameHeight="54"/>
+ring004b.png 1376 1380 20 16" frameX="-19" frameY="-21" frameWidth="58" frameHeight="58"/>
+ring005a.png 1376 1363 20 16" frameX="-14" frameY="-19" frameWidth="48" frameHeight="54"/>
+ring005b.png 1376 1363 20 16" frameX="-19" frameY="-21" frameWidth="58" frameHeight="58"/>
+ring006a.png 596 1422 20 18" frameX="-14" frameY="-17" frameWidth="48" frameHeight="54"/>
+ring006b.png 596 1422 20 18" frameX="-19" frameY="-19" frameWidth="58" frameHeight="58"/>
+ring007a.png 1376 1346 20 16" frameX="-14" frameY="-19" frameWidth="48" frameHeight="54"/>
+ring007b.png 1376 1346 20 16" frameX="-19" frameY="-21" frameWidth="58" frameHeight="58"/>
+ring008a.png 1327 602 20 24" frameX="-14" frameY="-11" frameWidth="48" frameHeight="54"/>
+ring008b.png 1327 602 20 24" frameX="-19" frameY="-13" frameWidth="58" frameHeight="58"/>
+ring009a.png 575 1422 20 18" frameX="-14" frameY="-17" frameWidth="48" frameHeight="54"/>
+ring009b.png 575 1422 20 18" frameX="-19" frameY="-19" frameWidth="58" frameHeight="58"/>
+ring010a.png 573 1403 20 18" frameX="-14" frameY="-17" frameWidth="48" frameHeight="54"/>
+ring010b.png 573 1403 20 18" frameX="-19" frameY="-19" frameWidth="58" frameHeight="58"/>
+ring011a.png 1378 1329 20 16" frameX="-14" frameY="-19" frameWidth="48" frameHeight="54"/>
+ring011b.png 1378 1329 20 16" frameX="-19" frameY="-21" frameWidth="58" frameHeight="58"/>
+rtext000.png 1144 1330 50 14" frameX="-48" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext001.png 1134 1345 50 14" frameX="-48" frameY="0" frameWidth="148" frameHeight="26"/>
+rtext002.png 1091 1378 50 14" frameX="-48" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext003.png 124 1215 110 28" frameX="-42" frameY="-6" frameWidth="168" frameHeight="42"/>
+rtext004.png 1091 1363 50 14" frameX="-72" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext005.png 721 784 168 38" frameX="-5" frameY="-7" frameWidth="182" frameHeight="52"/>
+rtext006.png 721 823 156 26" frameX="-14" frameY="-3" frameWidth="182" frameHeight="34"/>
+rtext007.png 1082 1423 50 14" frameX="-72" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext008.png 991 1179 84 14" frameX="-56" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext009.png 716 1013 132 15" frameX="-8" frameY="-12" frameWidth="150" frameHeight="39"/>
+rtext010.png 716 997 132 15" frameX="-8" frameY="-12" frameWidth="150" frameHeight="39"/>
+rtext011.png 716 981 132 15" frameX="-8" frameY="-12" frameWidth="150" frameHeight="39"/>
+rtext012.png 1079 987 132 15" frameX="-8" frameY="-12" frameWidth="150" frameHeight="39"/>
+rtext014.png 464 833 158 28" frameX="-12" frameY="-3" frameWidth="182" frameHeight="34"/>
+rtext015.png 1079 814 168 26" frameX="-8" frameY="-4" frameWidth="182" frameHeight="34"/>
+rtext016.png 1090 1393 50 14" frameX="-72" frameY="-14" frameWidth="168" frameHeight="42"/>
+rtext017.png 389 927 74 14" frameX="-60" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext018.png 1082 1408 50 14" frameX="-72" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext019.png 721 745 168 38" frameX="-5" frameY="-7" frameWidth="182" frameHeight="52"/>
+rtext020.png 1081 1469 50 14" frameX="-47" frameY="-8" frameWidth="134" frameHeight="30"/>
+rtext021.png 124 1304 98 14" frameX="-48" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext022.png 1503 1512 38 14" frameX="-54" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext023.png 1039 1454 50 14" frameX="-48" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext024.png 389 912 74 14" frameX="-60" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext025.png 358 1335 98 14" frameX="-48" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext026.png 1039 1439 50 14" frameX="-48" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext027.png 358 1320 98 14" frameX="-36" frameY="-48" frameWidth="170" frameHeight="108"/>
+rtext028.png 1566 1191 122 42" frameX="-24" frameY="-34" frameWidth="170" frameHeight="108"/>
+rtext029.png 1243 1315 96 14" frameX="-38" frameY="-48" frameWidth="170" frameHeight="108"/>
+rtext030.png 391 852 72 14" frameX="-50" frameY="-48" frameWidth="170" frameHeight="108"/>
+rtext031.png 1122 1315 50 14" frameX="-48" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext032.png 1256 1243 122 42" frameX="-24" frameY="-34" frameWidth="170" frameHeight="108"/>
+rtext033.png 1093 1330 50 14" frameX="-47" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext034.png 1453 1637 26 14" frameX="-59" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext035.png 1083 1345 50 14" frameX="-47" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext036.png 1492 1537 38 14" frameX="-53" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext037.png 1040 1378 50 14" frameX="-47" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext038.png 1492 1577 38 14" frameX="-53" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext039.png 1492 1562 38 14" frameX="-53" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext040.png 1460 1607 38 14" frameX="-53" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext041.png 1460 1592 38 14" frameX="-53" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext042.png 1585 1562 24 14" frameX="-61" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext043.png 1453 1622 38 14" frameX="-53" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext044.png 1529 1497 26 14" frameX="-59" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext045.png 1040 1363 50 14" frameX="-47" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext046.png 1529 1482 26 14" frameX="-59" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext047.png 1449 1712 38 14" frameX="-53" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext048.png 235 1122 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext049.png 832 1278 16 22" frameX="-78" frameY="-43" frameWidth="170" frameHeight="108"/>
+rtext050.png 714 1141 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext051.png 715 1084 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext052.png 463 1118 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext053.png 464 1061 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext054.png 868 1075 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext055.png 1078 1060 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext056.png 1443 1191 122 42" frameX="-24" frameY="-31" frameWidth="170" frameHeight="108"/>
+rtext057.png 1079 1003 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext058.png 1566 1148 122 42" frameX="-24" frameY="-31" frameWidth="170" frameHeight="108"/>
+rtext059.png 868 1018 122 56" frameX="-24" frameY="-24" frameWidth="170" frameHeight="108"/>
+rtext060.png 1256 1200 122 42" frameX="-24" frameY="-31" frameWidth="170" frameHeight="108"/>
+rtext061.png 1443 1148 122 42" frameX="-24" frameY="-31" frameWidth="170" frameHeight="108"/>
+rtext062.png 868 1244 122 42" frameX="-24" frameY="-31" frameWidth="170" frameHeight="108"/>
+rtext063.png 956 900 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext064.png 956 843 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext065.png 124 1289 110 14" frameX="-42" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext066.png 1031 1424 50 14" frameX="-48" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext067.png 1566 1306 120 28" frameX="-25" frameY="-40" frameWidth="170" frameHeight="108"/>
+rtext068.png 1076 1229 122 42" frameX="-24" frameY="-32" frameWidth="170" frameHeight="108"/>
+rtext069.png 1039 1393 50 14" frameX="-47" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext070.png 1031 1409 50 14" frameX="-47" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext071.png 1030 1471 50 14" frameX="-47" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext072.png 988 1456 50 14" frameX="-47" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext073.png 1425 1697 38 14" frameX="-53" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext074.png 1425 1682 38 14" frameX="-53" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext075.png 988 1441 50 14" frameX="-47" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext076.png 1071 1315 50 14" frameX="-47" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext077.png 1425 1667 38 14" frameX="-53" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext078.png 1192 1450 38 14" frameX="-53" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext079.png 1042 1330 50 14" frameX="-47" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext080.png 1218 879 24 14" frameX="-61" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext081.png 989 1378 50 14" frameX="-47" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext082.png 1032 1347 50 14" frameX="-47" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext083.png 1192 1435 38 14" frameX="-53" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext084.png 956 786 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext085.png 991 1164 84 14" frameX="-55" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext086.png 1710 558 62 14" frameX="-66" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext087.png 989 1363 50 14" frameX="-47" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext088.png 1710 543 62 14" frameX="-66" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext089.png 1256 1286 122 28" frameX="-24" frameY="-40" frameWidth="170" frameHeight="108"/>
+rtext090.png 1256 1157 122 42" frameX="-24" frameY="-31" frameWidth="170" frameHeight="108"/>
+rtext091.png 389 897 74 14" frameX="-60" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext092.png 1529 1467 26 14" frameX="-59" frameY="-9" frameWidth="134" frameHeight="30"/>
+rtext093.png 988 1394 50 14" frameX="-72" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext094.png 980 1426 50 14" frameX="-48" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext095.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="170" frameHeight="40"/>
+rtext096.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="170" frameHeight="40"/>
+rtext097.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="170" frameHeight="40"/>
+rtext098.png 980 1411 50 14" frameX="-48" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext099.png 979 1473 50 14" frameX="-48" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext100.png 464 804 158 28" frameX="-12" frameY="-3" frameWidth="182" frameHeight="34"/>
+rtext101.png 981 1347 50 14" frameX="-14" frameY="-3" frameWidth="80" frameHeight="20"/>
+rtext102.png 1341 1315 36 14" frameX="-40" frameY="-14" frameWidth="170" frameHeight="40"/>
+rtext103.png 242 866 146 84" frameX="-12" frameY="-12" frameWidth="170" frameHeight="108"/>
+rtext104.png 1592 777 146 56" frameX="-12" frameY="-26" frameWidth="170" frameHeight="108"/>
+rtext105.png 1 921 146 70" frameX="-12" frameY="-19" frameWidth="170" frameHeight="108"/>
+rtext106.png 1192 1405 38 14" frameX="-52" frameY="-3" frameWidth="116" frameHeight="20"/>
+rtext107.png 1193 1390 38 14" frameX="-52" frameY="-3" frameWidth="116" frameHeight="20"/>
+rtext108.png 464 933 146 70" frameX="-12" frameY="-18" frameWidth="170" frameHeight="108"/>
+rtext109.png 1445 777 146 56" frameX="-12" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext110.png 1445 720 146 56" frameX="-12" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext111.png 1 1106 146 56" frameX="-12" frameY="-26" frameWidth="170" frameHeight="108"/>
+rtext112.png 124 1274 110 14" frameX="-42" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext113.png 389 882 74 14" frameX="-60" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext114.png 1710 528 62 14" frameX="-66" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext115.png 1710 513 62 14" frameX="-66" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext116.png 1710 498 62 14" frameX="-66" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext117.png 1411 1607 48 14" frameX="-73" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext118.png 1398 1723 50 14" frameX="-48" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext119.png 1567 1105 122 42" frameX="-24" frameY="-31" frameWidth="170" frameHeight="108"/>
+rtext120.png 148 1157 86 14" frameX="-54" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext121.png 477 668 194 14" frameX="-35" frameY="-27" frameWidth="264" frameHeight="66"/>
+rtext122.png 1518 1697 26 14" frameX="-60" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext123.png 389 867 74 14" frameX="-60" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext124.png 646 902 74 14" frameX="-36" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext125.png 930 1347 50 14" frameX="-72" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext126.png 1592 720 116 56" frameX="-24" frameY="-26" frameWidth="170" frameHeight="108"/>
+rtext127.png 898 1479 50 14" frameX="-48" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext128.png 1444 1105 122 42" frameX="-24" frameY="-32" frameWidth="170" frameHeight="108"/>
+rtext129.png 1288 1480 50 14" frameX="-48" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext130.png 1234 1360 26 14" frameX="-12" frameY="-26" frameWidth="52" frameHeight="52"/>
+rtext131.png 242 678 206 166" frameX="-29" frameY="-70" frameWidth="264" frameHeight="304"/>
+rtext132.png 1710 483 62 14" frameX="-42" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext133.png 1257 910 134 132" frameX="-65" frameY="-95" frameWidth="264" frameHeight="304"/>
+rtext134.png 1710 468 62 14" frameX="-42" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext135.png 1710 644 60 14" frameX="-67" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext136.png 958 603 122 68" frameX="-24" frameY="-17" frameWidth="170" frameHeight="108"/>
+rtext137.png 1079 787 168 26" frameX="-6" frameY="-3" frameWidth="182" frameHeight="34"/>
+rtext138.png 1236 1345 26 14" frameX="-59" frameY="-8" frameWidth="134" frameHeight="30"/>
+rtext139.png 868 928 86 28" frameX="-54" frameY="-6" frameWidth="168" frameHeight="42"/>
+rtext140.png 235 1065 146 56" frameX="-13" frameY="-26" frameWidth="170" frameHeight="108"/>
+rtext141.png 1 1049 146 56" frameX="-13" frameY="-26" frameWidth="170" frameHeight="108"/>
+rtext142.png 1592 834 146 42" frameX="-12" frameY="-31" frameWidth="170" frameHeight="108"/>
+rtext143.png 241 1008 146 56" frameX="-11" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext144.png 464 1004 146 56" frameX="-11" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext145.png 721 910 146 70" frameX="-11" frameY="-18" frameWidth="170" frameHeight="108"/>
+rtext146.png 1445 834 146 42" frameX="-11" frameY="-31" frameWidth="170" frameHeight="108"/>
+rtext147.png 464 862 146 70" frameX="-11" frameY="-17" frameWidth="170" frameHeight="108"/>
+rtext148.png 1 992 146 56" frameX="-12" frameY="-26" frameWidth="170" frameHeight="108"/>
+rtext149.png 241 951 146 56" frameX="-12" frameY="-26" frameWidth="170" frameHeight="108"/>
+rtext150.png 60 1334 18 22" frameX="-20" frameY="-19" frameWidth="58" frameHeight="58"/>
+rtext150t.png 957 729 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext151.png 41 1334 18 22" frameX="-20" frameY="-19" frameWidth="58" frameHeight="58"/>
+rtext151t.png 716 1029 128 54" frameX="-24" frameY="-24" frameWidth="170" frameHeight="108"/>
+rtext152.png 22 1334 18 22" frameX="-20" frameY="-19" frameWidth="58" frameHeight="58"/>
+rtext152t.png 957 672 122 56" frameX="-24" frameY="-25" frameWidth="170" frameHeight="108"/>
+rtext153.png 124 1172 110 42" frameX="-30" frameY="-31" frameWidth="170" frameHeight="108"/>
+rtext154.png 1288 1465 50 14" frameX="-48" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext155.png 1288 1480 50 14" frameX="-48" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext156.png 1257 850 146 28" frameX="-18" frameY="-3" frameWidth="182" frameHeight="34"/>
+rtext157.png 148 1040 90 14" frameX="-14" frameY="-13" frameWidth="170" frameHeight="40"/>
+rtext158.png 148 1113 86 28" frameX="-65" frameY="-6" frameWidth="168" frameHeight="42"/>
+rtext160.png 148 1084 86 28" frameX="-65" frameY="-6" frameWidth="168" frameHeight="42"/>
+rtext161.png 983 588 100 14" frameX="-50" frameY="-13" frameWidth="168" frameHeight="42"/>
+rtext162.png 1288 1450 50 14" frameX="-48" frameY="-1" frameWidth="148" frameHeight="26"/>
+rtext163.png 358 1305 98 14" frameX="-82" frameY="-26" frameWidth="264" frameHeight="66"/>
+rtext164.png 1442 1422 114 14" frameX="-73" frameY="-26" frameWidth="264" frameHeight="66"/>
+rtext165.png 1443 1321 120 14" frameX="-70" frameY="-26" frameWidth="264" frameHeight="66"/>
+rtext166.png 868 1003 126 14" frameX="-67" frameY="-26" frameWidth="264" frameHeight="66"/>
+rtext167.png 1257 879 140 30" frameX="-61" frameY="-19" frameWidth="264" frameHeight="66"/>
+rtext168.png 1079 941 138 30" frameX="-61" frameY="-19" frameWidth="264" frameHeight="66"/>
+rtext169.png 1079 910 138 30" frameX="-61" frameY="-19" frameWidth="264" frameHeight="66"/>
+rtext170.png 1079 879 138 30" frameX="-61" frameY="-19" frameWidth="264" frameHeight="66"/>
+rtext171.png 1288 1435 50 14" frameX="-79" frameY="-14" frameWidth="168" frameHeight="42"/>
+rtext172.png 646 887 74 14" frameX="-46" frameY="-14" frameWidth="168" frameHeight="42"/>
+rtext173.png 148 1055 86 28" frameX="-65" frameY="-7" frameWidth="168" frameHeight="42"/>
+rtext174.png 389 912 74 14" frameX="-65" frameY="-14" frameWidth="168" frameHeight="42"/>
+rtext175.png 1710 644 60 14" frameX="-67" frameY="-14" frameWidth="168" frameHeight="42"/>
+rtext176.png 358 1186 98 28" frameX="-54" frameY="-6" frameWidth="168" frameHeight="42"/>
+rtext177.png 124 1259 110 14" frameX="-44" frameY="-13" frameWidth="168" frameHeight="42"/>
+skill000.png 1341 1330 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+skill000a.png 358 1290 98 14" frameX="-8" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill000b.png 1234 1393 50 14" frameX="-48" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill000c.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="116" frameHeight="20"/>
+skill000n.png 991 1254 80 14" frameX="-17" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill001.png 1306 1562 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+skill001a.png 358 1275 98 14" frameX="-8" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill001b.png 1288 1420 50 14" frameX="-48" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill001c.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="116" frameHeight="20"/>
+skill001n.png 382 1111 80 14" frameX="-17" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill002.png 1274 1605 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+skill002a.png 358 1260 98 14" frameX="-9" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill002b.png 1288 1420 50 14" frameX="-48" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill002c.png 1411 1592 48 14" frameX="-50" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill002n.png 388 1017 68 14" frameX="-23" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill003.png 1737 1146 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+skill003a.png 148 1142 86 14" frameX="-14" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill003b.png 1193 1375 38 14" frameX="-50" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill003c.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="116" frameHeight="20"/>
+skill003n.png 382 1096 80 14" frameX="-17" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill004.png 1737 1105 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+skill004a.png 991 1104 86 14" frameX="-14" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill004b.png 1193 1375 38 14" frameX="-50" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill004c.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="116" frameHeight="20"/>
+skill004n.png 382 1081 80 14" frameX="-17" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill005.png 1737 1064 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+skill005a.png 358 1245 98 14" frameX="-9" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill005b.png 1288 1420 50 14" frameX="-48" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill005c.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="116" frameHeight="20"/>
+skill005n.png 388 1002 68 14" frameX="-23" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill006.png 1737 1023 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+skill006a.png 991 1089 86 14" frameX="-15" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill006b.png 1404 1622 48 14" frameX="-51" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill006c.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="116" frameHeight="20"/>
+skill006n.png 388 987 68 14" frameX="-23" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill007.png 1738 982 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+skill007a.png 358 1230 98 14" frameX="-9" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill007b.png 1288 1420 50 14" frameX="-48" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill007c.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="116" frameHeight="20"/>
+skill007n.png 991 1284 78 14" frameX="-19" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill008.png 1738 941 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+skill008a.png 991 1074 86 14" frameX="-14" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill008b.png 1288 1405 50 14" frameX="-48" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill008c.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="116" frameHeight="20"/>
+skill008n.png 148 1025 90 14" frameX="-13" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill009.png 1738 900 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+skill009a.png 991 1149 84 14" frameX="-15" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill009b.png 1288 1390 50 14" frameX="-48" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill009c.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="116" frameHeight="20"/>
+skill009n.png 388 972 68 14" frameX="-23" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill010.png 611 923 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+skill010a.png 991 1134 84 14" frameX="-15" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill010b.png 1288 1375 50 14" frameX="-48" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill010c.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="116" frameHeight="20"/>
+skill010n.png 148 1010 92 14" frameX="-11" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill011.png 611 882 34 40" frameX="-7" frameY="-7" frameWidth="48" frameHeight="54"/>
+skill011a.png 991 1059 86 14" frameX="-14" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill011b.png 1288 1360 50 14" frameX="-48" frameY="-3" frameWidth="116" frameHeight="20"/>
+skill011c.png 1771 285 1 1" frameX="0" frameY="0" frameWidth="116" frameHeight="20"/>
+skill011n.png 388 957 68 14" frameX="-23" frameY="-3" frameWidth="116" frameHeight="20"/>
+story000.png 410 1562 118 85"/>
+story000a.png 611 964 108 14" frameX="-33" frameY="-13" frameWidth="170" frameHeight="40"/>
+story001.png 291 1648 118 85"/>
+story001a.png 1443 1306 122 14" frameX="-26" frameY="-13" frameWidth="170" frameHeight="40"/>
+story002.png 291 1562 118 85"/>
+story002a.png 358 1215 98 14" frameX="-38" frameY="-13" frameWidth="170" frameHeight="40"/>
+story003.png 1562 1421 118 85"/>
+story003a.png 1079 972 134 14" frameX="-18" frameY="-13" frameWidth="170" frameHeight="40"/>
+story004.png 1443 1336 118 85"/>
+story004a.png 124 1244 110 14" frameX="-32" frameY="-13" frameWidth="170" frameHeight="40"/>
+story005.png 1564 1335 118 85"/>
+story005a.png 868 988 126 14" frameX="-21" frameY="-13" frameWidth="170" frameHeight="40"/>
+text%d.png 1403 674 4 4" frameX="-1" frameY="-4" frameWidth="8" frameHeight="8"/>
+text%da.png 1715 451 2 2" frameX="-1" frameY="-5" frameWidth="6" frameHeight="8"/>
+text%db.png 1398 674 4 4" frameX="0" frameY="-4" frameWidth="6" frameHeight="8"/>
+text%dc.png 1403 674 4 4" frameX="0" frameY="-4" frameWidth="6" frameHeight="8"/>
+text%de.png 1393 674 4 4" frameX="-1" frameY="-6" frameWidth="8" frameHeight="10"/>
+text%dg.png 1388 674 4 4" frameX="0" frameY="-4" frameWidth="6" frameHeight="8"/>
+text%di.png 1383 674 4 4" frameX="0" frameY="-4" frameWidth="6" frameHeight="8"/>
+text%do.png 1378 674 4 4" frameX="-1" frameY="-6" frameWidth="8" frameHeight="10"/>
+text%dp.png 1373 674 4 4" frameX="-1" frameY="-6" frameWidth="8" frameHeight="10"/>
+text%dr.png 1368 674 4 4" frameX="0" frameY="-4" frameWidth="6" frameHeight="8"/>
+text%dt.png 1363 674 4 4" frameX="0" frameY="-4" frameWidth="6" frameHeight="8"/>
+text%du.png 1358 674 4 4" frameX="-1" frameY="-6" frameWidth="8" frameHeight="10"/>
+text%dy.png 710 617 4 4" frameX="-1" frameY="-6" frameWidth="8" frameHeight="10"/>
+text%k.png 1162 1483 8 8"/>
+text%ka.png 1251 746 4 6" frameX="-1" frameY="-1" frameWidth="6" frameHeight="8"/>
+text%kb.png 1337 1633 6 8"/>
+text%kc.png 1330 1633 6 8"/>
+text%ke.png 1306 1495 8 10"/>
+text%kg.png 1323 1633 6 8"/>
+text%ki.png 1316 1633 6 8"/>
+text%ko.png 1297 1495 8 10"/>
+text%kp.png 1288 1495 8 10"/>
+text%kr.png 1309 1633 6 8"/>
+text%kt.png 1345 1760 6 8"/>
+text%ku.png 1278 1548 8 10"/>
+text%ky.png 1269 1548 8 10"/>
+text%m.png 1153 1483 8 8"/>
+text%ma.png 672 677 4 6" frameX="-1" frameY="-1" frameWidth="6" frameHeight="8"/>
+text%mb.png 1338 1760 6 8"/>
+text%mc.png 1331 1760 6 8"/>
+text%me.png 1260 1548 8 10"/>
+text%mg.png 1324 1760 6 8"/>
+text%mi.png 1317 1760 6 8"/>
+text%mo.png 1251 1548 8 10"/>
+text%mp.png 1279 1494 8 10"/>
+text%mr.png 1310 1760 6 8"/>
+text%mt.png 1303 1760 6 8"/>
+text%mu.png 1270 1494 8 10"/>
+text%my.png 1261 1494 8 10"/>
+text0.png 1144 1483 8 8"/>
+text0a.png 672 670 4 6" frameX="-1" frameY="-1" frameWidth="6" frameHeight="8"/>
+text0b.png 1296 1760 6 8"/>
+text0c.png 1321 1736 6 8"/>
+text0e.png 1252 1494 8 10"/>
+text0g.png 1314 1736 6 8"/>
+text0i.png 1307 1736 6 8"/>
+text0o.png 1242 1548 8 10"/>
+text0p.png 1233 1548 8 10"/>
+text0r.png 1135 1483 8 8"/>
+text0t.png 1300 1736 6 8"/>
+text0u.png 1224 1548 8 10"/>
+text0y.png 1215 1548 8 10"/>
+text1.png 1126 1484 8 8"/>
+text1a.png 673 663 4 6" frameX="-1" frameY="-1" frameWidth="6" frameHeight="8"/>
+text1b.png 1293 1736 6 8"/>
+text1c.png 1286 1736 6 8"/>
+text1e.png 1243 1494 8 10"/>
+text1g.png 1279 1736 6 8"/>
+text1i.png 1272 1736 6 8"/>
+text1o.png 1234 1494 8 10"/>
+text1p.png 1225 1494 8 10"/>
+text1r.png 1117 1484 8 8"/>
+text1t.png 1276 1480 6 8"/>
+text1u.png 1216 1494 8 10"/>
+text1y.png 1206 1548 8 10"/>
+text2.png 1108 1484 8 8"/>
+text2a.png 673 656 4 6" frameX="-1" frameY="-1" frameWidth="6" frameHeight="8"/>
+text2b.png 1269 1480 6 8"/>
+text2c.png 1262 1480 6 8"/>
+text2e.png 1197 1548 8 10"/>
+text2g.png 1255 1480 6 8"/>
+text2i.png 1248 1480 6 8"/>
+text2o.png 1188 1548 8 10"/>
+text2p.png 1179 1548 8 10"/>
+text2r.png 1099 1484 8 8"/>
+text2t.png 1241 1480 6 8"/>
+text2u.png 1207 1494 8 10"/>
+text2y.png 1198 1494 8 10"/>
+text3.png 1090 1484 8 8"/>
+text3a.png 673 649 4 6" frameX="-1" frameY="-1" frameWidth="6" frameHeight="8"/>
+text3b.png 1234 1480 6 8"/>
+text3c.png 1279 1423 6 8"/>
+text3e.png 1189 1494 8 10"/>
+text3g.png 1272 1423 6 8"/>
+text3i.png 1265 1423 6 8"/>
+text3o.png 1180 1494 8 10"/>
+text3p.png 1170 1548 8 10"/>
+text3r.png 1081 1484 8 8"/>
+text3t.png 1258 1423 6 8"/>
+text3u.png 1161 1548 8 10"/>
+text3y.png 1152 1548 8 10"/>
+text4.png 1060 1320 8 8"/>
+text4a.png 952 632 4 6" frameX="-1" frameY="-1" frameWidth="6" frameHeight="8"/>
+text4b.png 1251 1423 6 8"/>
+text4c.png 1184 1426 6 8"/>
+text4e.png 1143 1548 8 10"/>
+text4g.png 1184 1417 6 8"/>
+text4i.png 1184 1408 6 8"/>
+text4o.png 1171 1494 8 10"/>
+text4p.png 1162 1494 8 10"/>
+text4r.png 921 1347 8 8"/>
+text4t.png 1263 1357 6 8"/>
+text4u.png 1153 1494 8 10"/>
+text4y.png 1144 1494 8 10"/>
+text5.png 916 1356 8 8"/>
+text5a.png 952 625 4 6" frameX="-1" frameY="-1" frameWidth="6" frameHeight="8"/>
+text5b.png 1263 1348 6 8"/>
+text5c.png 1263 1339 6 8"/>
+text5e.png 1135 1494 8 10"/>
+text5g.png 1263 1330 6 8"/>
+text5i.png 443 1425 6 8"/>
+text5o.png 1126 1494 8 10"/>
+text5p.png 1263 1738 8 10"/>
+text5r.png 912 1347 8 8"/>
+text5t.png 443 1416 6 8"/>
+text5u.png 1254 1738 8 10"/>
+text5y.png 1245 1738 8 10"/>
+text6.png 907 1356 8 8"/>
+text6a.png 952 618 4 6" frameX="-1" frameY="-1" frameWidth="6" frameHeight="8"/>
+text6b.png 443 1407 6 8"/>
+text6c.png 141 1163 6 8"/>
+text6e.png 1236 1738 8 10"/>
+text6g.png 457 1072 6 8"/>
+text6i.png 457 1063 6 8"/>
+text6o.png 1227 1738 8 10"/>
+text6p.png 1215 1749 8 10"/>
+text6r.png 903 1347 8 8"/>
+text6t.png 995 1015 6 8"/>
+text6u.png 1206 1749 8 10"/>
+text6y.png 1197 1749 8 10"/>
+text7.png 898 1356 8 8"/>
+text7a.png 716 616 4 6" frameX="-1" frameY="-1" frameWidth="6" frameHeight="8"/>
+text7b.png 995 1006 6 8"/>
+text7c.png 995 997 6 8"/>
+text7e.png 1188 1749 8 10"/>
+text7g.png 995 988 6 8"/>
+text7i.png 1072 993 6 8"/>
+text7o.png 1094 1761 8 10"/>
+text7p.png 1085 1761 8 10"/>
+text7r.png 894 1347 8 8"/>
+text7t.png 1072 984 6 8"/>
+text7u.png 1076 1761 8 10"/>
+text7y.png 1067 1761 8 10"/>
+text8.png 889 1356 8 8"/>
+text8a.png 716 609 4 6" frameX="-1" frameY="-1" frameWidth="6" frameHeight="8"/>
+text8b.png 1072 975 6 8"/>
+text8c.png 1072 966 6 8"/>
+text8e.png 1058 1761 8 10"/>
+text8g.png 1072 957 6 8"/>
+text8i.png 1428 777 6 8"/>
+text8o.png 1049 1761 8 10"/>
+text8p.png 826 1358 8 10"/>
+text8r.png 885 1347 8 8"/>
+text8t.png 1428 768 6 8"/>
+text8u.png 700 1202 8 10"/>
+text8y.png 691 1202 8 10"/>
+text9.png 880 1356 8 8"/>
+text9a.png 716 602 4 6" frameX="-1" frameY="-1" frameWidth="6" frameHeight="8"/>
+text9b.png 1428 759 6 8"/>
+text9c.png 457 1054 6 8"/>
+text9e.png 682 1202 8 10"/>
+text9g.png 457 1045 6 8"/>
+text9i.png 457 1036 6 8"/>
+text9o.png 673 1202 8 10"/>
+text9p.png 664 1202 8 10"/>
+text9r.png 876 1347 8 8"/>
+text9t.png 457 1027 6 8"/>
+text9u.png 655 1202 8 10"/>
+text9y.png 646 1202 8 10"/>
+textPb.png 1292 619 6 6" frameX="0" frameY="-1" frameWidth="6" frameHeight="8"/>
+textPc.png 1285 619 6 6" frameX="0" frameY="-1" frameWidth="6" frameHeight="8"/>
+textPg.png 1278 619 6 6" frameX="0" frameY="-1" frameWidth="6" frameHeight="8"/>
+textPi.png 1271 619 6 6" frameX="0" frameY="-1" frameWidth="6" frameHeight="8"/>
+textPy.png 1264 619 6 6" frameX="0" frameY="-1" frameWidth="6" frameHeight="8"/>
+text^.png 871 1356 8 8"/>
+texta.png 867 1347 8 8"/>
+textb.png 862 1356 8 8"/>
+textc.png 858 1347 8 8"/>
+textd.png 853 1356 8 8"/>
+texte.png 849 1347 8 8"/>
+textf.png 844 1358 8 8"/>
+textg.png 835 1358 8 8"/>
+texth.png 1351 1494 8 8"/>
+texti.png 1342 1494 8 8"/>
+textj.png 1332 1548 8 8"/>
+textk.png 1162 1483 8 8"/>
+textl.png 1323 1548 8 8"/>
+textm.png 1333 1495 8 8"/>
+textn.png 1324 1495 8 8"/>
+texto.png 1314 1548 8 8"/>
+textp.png 1305 1548 8 8"/>
+textq.png 1296 1548 8 8"/>
+textr.png 1287 1548 8 8"/>
+texts.png 1315 1495 8 8"/>
+textt.png 1179 1751 8 8"/>
+textu.png 1170 1751 8 8"/>
+textv.png 1161 1751 8 8"/>
+textw.png 1152 1751 8 8"/>
+textx.png 1143 1751 8 8"/>
+texty.png 1134 1751 8 8"/>
+textz.png 1125 1751 8 8"/>
+tip0.png 722 588 260 14" frameX="-82" frameY="-7" frameWidth="360" frameHeight="28"/>
+tip1.png 1080 731 176 14" frameX="-124" frameY="-7" frameWidth="360" frameHeight="28"/>
+tip10.png 721 603 236 14" frameX="-94" frameY="-7" frameWidth="360" frameHeight="28"/>
+tip11.png 479 602 236 14" frameX="-94" frameY="-7" frameWidth="360" frameHeight="28"/>
+tip12.png 1445 381 272 18" frameX="-74" frameY="-5" frameWidth="360" frameHeight="28"/>
+tip13.png 721 850 152 18" frameX="-132" frameY="-5" frameWidth="360" frameHeight="28"/>
+tip14.png 1084 602 242 16" frameX="-104" frameY="-6" frameWidth="360" frameHeight="28"/>
+tip15.png 1080 714 176 16" frameX="-119" frameY="-6" frameWidth="360" frameHeight="28"/>
+tip16.png 1259 707 176 18" frameX="-128" frameY="-5" frameWidth="360" frameHeight="28"/>
+tip17.png 523 583 198 18" frameX="-109" frameY="-5" frameWidth="360" frameHeight="28"/>
+tip18.png 478 632 200 16" frameX="-108" frameY="-6" frameWidth="360" frameHeight="28"/>
+tip19.png 262 583 260 18" frameX="-78" frameY="-5" frameWidth="360" frameHeight="28"/>
+tip2.png 1445 400 272 14" frameX="-76" frameY="-7" frameWidth="360" frameHeight="28"/>
+tip20.png 242 602 236 18" frameX="-93" frameY="-4" frameWidth="360" frameHeight="28"/>
+tip21.png 721 726 170 18" frameX="-139" frameY="-4" frameWidth="360" frameHeight="28"/>
+tip22.png 479 617 230 14" frameX="-102" frameY="-7" frameWidth="360" frameHeight="28"/>
+tip23.png 478 649 194 18" frameX="-119" frameY="-5" frameWidth="360" frameHeight="28"/>
+tip24.png 242 640 222 18" frameX="-117" frameY="-5" frameWidth="360" frameHeight="28"/>
+tip25.png 242 659 210 18" frameX="-116" frameY="-5" frameWidth="360" frameHeight="28"/>
+tip26.png 1 583 260 18" frameX="-93" frameY="-5" frameWidth="360" frameHeight="28"/>
+tip27.png 1079 860 164 18" frameX="-147" frameY="-5" frameWidth="360" frameHeight="28"/>
+tip28.png 721 618 230 14" frameX="-99" frameY="-7" frameWidth="360" frameHeight="28"/>
+tip3.png 242 621 222 18" frameX="-98" frameY="-4" frameWidth="360" frameHeight="28"/>
+tip4.png 1079 841 166 18" frameX="-133" frameY="-4" frameWidth="360" frameHeight="28"/>
+tip5.png 477 683 190 18" frameX="-114" frameY="-4" frameWidth="360" frameHeight="28"/>
+tip6.png 1257 726 176 14" frameX="-124" frameY="-7" frameWidth="360" frameHeight="28"/>
+tip7.png 464 789 164 14" frameX="-130" frameY="-7" frameWidth="360" frameHeight="28"/>
+tip8.png 477 702 188 14" frameX="-118" frameY="-7" frameWidth="360" frameHeight="28"/>
+tip9.png 477 717 186 18" frameX="-124" frameY="-4" frameWidth="360" frameHeight="28"/>
+wepon000.png 687 1385 14 36" frameX="-36" frameY="-9" frameWidth="58" frameHeight="58"/>
+wepon000a.png 672 1385 14 36" frameX="-18" frameY="-9" frameWidth="48" frameHeight="54"/>
+wepon000b.png 672 1385 14 36" frameX="-23" frameY="-11" frameWidth="58" frameHeight="58"/>
+wepon001.png 464 660 12 38" frameX="-37" frameY="-8" frameWidth="58" frameHeight="58"/>
+wepon001a.png 708 662 12 38" frameX="-18" frameY="-8" frameWidth="48" frameHeight="54"/>
+wepon001b.png 708 662 12 38" frameX="-23" frameY="-10" frameWidth="58" frameHeight="58"/>
+wepon002.png 1270 1330 12 32" frameX="-38" frameY="-14" frameWidth="58" frameHeight="58"/>
+wepon002a.png 837 1183 10 32" frameX="-20" frameY="-12" frameWidth="48" frameHeight="54"/>
+wepon002b.png 837 1183 10 32" frameX="-25" frameY="-14" frameWidth="58" frameHeight="58"/>
+wepon003.png 453 659 10 38" frameX="-38" frameY="-8" frameWidth="58" frameHeight="58"/>
+wepon003a.png 710 623 10 38" frameX="-19" frameY="-8" frameWidth="48" frameHeight="54"/>
+wepon003b.png 710 623 10 38" frameX="-24" frameY="-10" frameWidth="58" frameHeight="58"/>
+wepon004.png 947 1411 14 30" frameX="-36" frameY="-16" frameWidth="58" frameHeight="58"/>
+wepon004a.png 942 1444 14 30" frameX="-17" frameY="-12" frameWidth="48" frameHeight="54"/>
+wepon004b.png 942 1444 14 30" frameX="-22" frameY="-14" frameWidth="58" frameHeight="58"/>
+wepon005.png 1248 787 8 38" frameX="-39" frameY="-8" frameWidth="58" frameHeight="58"/>
+wepon005a.png 1436 707 8 38" frameX="-21" frameY="-8" frameWidth="48" frameHeight="54"/>
+wepon005b.png 1436 707 8 38" frameX="-26" frameY="-10" frameWidth="58" frameHeight="58"/>
+wepon006.png 1244 861 12 32" frameX="-38" frameY="-14" frameWidth="58" frameHeight="58"/>
+wepon006a.png 837 1150 10 32" frameX="-20" frameY="-12" frameWidth="48" frameHeight="54"/>
+wepon006b.png 837 1150 10 32" frameX="-25" frameY="-14" frameWidth="58" frameHeight="58"/>
+wepon007.png 449 776 14 38" frameX="-36" frameY="-7" frameWidth="58" frameHeight="58"/>
+wepon007a.png 449 737 14 38" frameX="-17" frameY="-8" frameWidth="48" frameHeight="54"/>
+wepon007b.png 449 737 14 38" frameX="-22" frameY="-10" frameWidth="58" frameHeight="58"/>
+wepon008.png 465 621 12 38" frameX="-37" frameY="-7" frameWidth="58" frameHeight="58"/>
+wepon008a.png 944 642 12 38" frameX="-18" frameY="-8" frameWidth="48" frameHeight="54"/>
+wepon008b.png 944 642 12 38" frameX="-23" frameY="-10" frameWidth="58" frameHeight="58"/>
+wepon009.png 1337 1507 14 32" frameX="-36" frameY="-13" frameWidth="58" frameHeight="58"/>
+wepon009a.png 1209 1652 14 32" frameX="-17" frameY="-11" frameWidth="48" frameHeight="54"/>
+wepon009b.png 1209 1652 14 32" frameX="-22" frameY="-13" frameWidth="58" frameHeight="58"/>
+wepon010.png 943 817 12 32" frameX="-37" frameY="-13" frameWidth="58" frameHeight="58"/>
+wepon010a.png 943 784 12 32" frameX="-18" frameY="-12" frameWidth="48" frameHeight="54"/>
+wepon010b.png 943 784 12 32" frameX="-23" frameY="-14" frameWidth="58" frameHeight="58"/>
+wepon011.png 1758 1233 14 36" frameX="-36" frameY="-9" frameWidth="58" frameHeight="58"/>
+wepon011a.png 449 698 14 38" frameX="-17" frameY="-7" frameWidth="48" frameHeight="54"/>
+wepon011b.png 449 698 14 38" frameX="-22" frameY="-9" frameWidth="58" frameHeight="58"/>
+wepon100.png 863 1465 12 28" frameX="-37" frameY="-18" frameWidth="58" frameHeight="58"/>
+wepon100a.png 850 1465 12 28" frameX="-18" frameY="-13" frameWidth="48" frameHeight="54"/>
+wepon100b.png 850 1465 12 28" frameX="-23" frameY="-15" frameWidth="58" frameHeight="58"/>
+wepon101.png 1392 910 10 36" frameX="-38" frameY="-10" frameWidth="58" frameHeight="58"/>
+wepon101a.png 878 823 10 36" frameX="-19" frameY="-10" frameWidth="48" frameHeight="54"/>
+wepon101b.png 878 823 10 36" frameX="-24" frameY="-12" frameWidth="58" frameHeight="58"/>
+wepon102.png 434 1407 8 34" frameX="-39" frameY="-12" frameWidth="58" frameHeight="58"/>
+wepon102a.png 1436 746 8 34" frameX="-21" frameY="-11" frameWidth="48" frameHeight="54"/>
+wepon102b.png 1436 746 8 34" frameX="-26" frameY="-13" frameWidth="58" frameHeight="58"/>
+wepon103.png 1248 826 8 34" frameX="-39" frameY="-12" frameWidth="58" frameHeight="58"/>
+wepon103a.png 1710 433 4 34" frameX="-23" frameY="-11" frameWidth="48" frameHeight="54"/>
+wepon103b.png 1710 433 4 34" frameX="-28" frameY="-13" frameWidth="58" frameHeight="58"/>
+wepon104.png 872 897 16 30" frameX="-34" frameY="-16" frameWidth="58" frameHeight="58"/>
+wepon104a.png 629 789 16 30" frameX="-16" frameY="-13" frameWidth="48" frameHeight="54"/>
+wepon104b.png 629 789 16 30" frameX="-21" frameY="-15" frameWidth="58" frameHeight="58"/>
+wepon105.png 979 1442 8 30" frameX="-39" frameY="-18" frameWidth="58" frameHeight="58"/>
+wepon105a.png 971 1411 8 30" frameX="-21" frameY="-12" frameWidth="48" frameHeight="54"/>
+wepon105b.png 971 1411 8 30" frameX="-26" frameY="-14" frameWidth="58" frameHeight="58"/>
+wepon106.png 838 1117 10 32" frameX="-38" frameY="-14" frameWidth="58" frameHeight="58"/>
+wepon106a.png 838 1084 10 32" frameX="-19" frameY="-11" frameWidth="48" frameHeight="54"/>
+wepon106b.png 838 1084 10 32" frameX="-24" frameY="-13" frameWidth="58" frameHeight="58"/>
+wepon107.png 419 1407 14 34" frameX="-36" frameY="-12" frameWidth="58" frameHeight="58"/>
+wepon107a.png 404 1407 14 34" frameX="-17" frameY="-10" frameWidth="48" frameHeight="54"/>
+wepon107b.png 404 1407 14 34" frameX="-22" frameY="-12" frameWidth="58" frameHeight="58"/>
+wepon108.png 944 681 12 36" frameX="-37" frameY="-10" frameWidth="58" frameHeight="58"/>
+wepon108a.png 464 699 12 36" frameX="-18" frameY="-10" frameWidth="48" frameHeight="54"/>
+wepon108b.png 464 699 12 36" frameX="-23" frameY="-12" frameWidth="58" frameHeight="58"/>
+wepon109.png 943 751 12 32" frameX="-37" frameY="-14" frameWidth="58" frameHeight="58"/>
+wepon109a.png 944 718 12 32" frameX="-18" frameY="-12" frameWidth="48" frameHeight="54"/>
+wepon109b.png 944 718 12 32" frameX="-23" frameY="-14" frameWidth="58" frameHeight="58"/>
+wepon110.png 874 860 14 36" frameX="-36" frameY="-10" frameWidth="58" frameHeight="58"/>
+wepon110a.png 449 815 14 36" frameX="-17" frameY="-9" frameWidth="48" frameHeight="54"/>
+wepon110b.png 449 815 14 36" frameX="-22" frameY="-11" frameWidth="58" frameHeight="58"/>
+wepon111.png 970 1442 8 30" frameX="-39" frameY="-16" frameWidth="58" frameHeight="58"/>
+wepon111a.png 962 1411 8 30" frameX="-21" frameY="-13" frameWidth="48" frameHeight="54"/>
+wepon111b.png 962 1411 8 30" frameX="-26" frameY="-15" frameWidth="58" frameHeight="58"/>
+wepon200.png 1392 1018 10 22" frameX="-38" frameY="-24" frameWidth="58" frameHeight="58"/>
+wepon200a.png 697 1621 8 22" frameX="-21" frameY="-17" frameWidth="48" frameHeight="54"/>
+wepon200b.png 697 1621 8 22" frameX="-26" frameY="-19" frameWidth="58" frameHeight="58"/>
+wepon201.png 1392 995 10 22" frameX="-37" frameY="-24" frameWidth="58" frameHeight="58"/>
+wepon201a.png 1392 972 10 22" frameX="-20" frameY="-17" frameWidth="48" frameHeight="54"/>
+wepon201b.png 1392 972 10 22" frameX="-25" frameY="-19" frameWidth="58" frameHeight="58"/>
+wepon202.png 822 1465 14 28" frameX="-36" frameY="-16" frameWidth="58" frameHeight="58"/>
+wepon202a.png 1131 1658 14 28" frameX="-18" frameY="-13" frameWidth="48" frameHeight="54"/>
+wepon202b.png 1131 1658 14 28" frameX="-23" frameY="-15" frameWidth="58" frameHeight="58"/>
+wepon203.png 1194 1652 14 32" frameX="-36" frameY="-14" frameWidth="58" frameHeight="58"/>
+wepon203a.png 1179 1652 14 32" frameX="-18" frameY="-11" frameWidth="48" frameHeight="54"/>
+wepon203b.png 1179 1652 14 32" frameX="-23" frameY="-13" frameWidth="58" frameHeight="58"/>
+wepon204.png 837 1247 10 30" frameX="-38" frameY="-17" frameWidth="58" frameHeight="58"/>
+wepon204a.png 837 1216 10 30" frameX="-19" frameY="-12" frameWidth="48" frameHeight="54"/>
+wepon204b.png 837 1216 10 30" frameX="-24" frameY="-14" frameWidth="58" frameHeight="58"/>
+wepon205.png 837 1465 12 28" frameX="-38" frameY="-17" frameWidth="58" frameHeight="58"/>
+wepon205a.png 957 1442 12 30" frameX="-19" frameY="-13" frameWidth="48" frameHeight="54"/>
+wepon205b.png 957 1442 12 30" frameX="-24" frameY="-15" frameWidth="58" frameHeight="58"/>
+wepon206.png 807 1420 14 20" frameX="-37" frameY="-23" frameWidth="58" frameHeight="58"/>
+wepon206a.png 1569 1712 14 14" frameX="-17" frameY="-19" frameWidth="48" frameHeight="54"/>
+wepon206b.png 1569 1712 14 14" frameX="-22" frameY="-21" frameWidth="58" frameHeight="58"/>
+wepon207.png 959 1363 14 30" frameX="-38" frameY="-17" frameWidth="58" frameHeight="58"/>
+wepon207a.png 944 1363 14 30" frameX="-18" frameY="-13" frameWidth="48" frameHeight="54"/>
+wepon207b.png 944 1363 14 30" frameX="-23" frameY="-15" frameWidth="58" frameHeight="58"/>
+wepon208.png 684 1621 12 22" frameX="-38" frameY="-23" frameWidth="58" frameHeight="58"/>
+wepon208a.png 671 1621 12 22" frameX="-18" frameY="-17" frameWidth="48" frameHeight="54"/>
+wepon208b.png 671 1621 12 22" frameX="-23" frameY="-19" frameWidth="58" frameHeight="58"/>
+wepon209.png 530 1707 12 26" frameX="-37" frameY="-19" frameWidth="58" frameHeight="58"/>
+wepon209a.png 517 1707 12 26" frameX="-18" frameY="-14" frameWidth="48" frameHeight="54"/>
+wepon209b.png 517 1707 12 26" frameX="-23" frameY="-16" frameWidth="58" frameHeight="58"/>
+wepon210.png 223 1333 10 24" frameX="-38" frameY="-21" frameWidth="58" frameHeight="58"/>
+wepon210a.png 643 1621 8 24" frameX="-21" frameY="-16" frameWidth="48" frameHeight="54"/>
+wepon210b.png 643 1621 8 24" frameX="-26" frameY="-18" frameWidth="58" frameHeight="58"/>
+wepon211.png 630 1621 12 24" frameX="-38" frameY="-21" frameWidth="58" frameHeight="58"/>
+wepon211a.png 1202 1003 12 24" frameX="-19" frameY="-16" frameWidth="48" frameHeight="54"/>
+wepon211b.png 1202 1003 12 24" frameX="-24" frameY="-18" frameWidth="58" frameHeight="58"/>
+wepon999.png 1180 1483 8 8" frameX="-37" frameY="-33" frameWidth="58" frameHeight="58"/>

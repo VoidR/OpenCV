@@ -3,19 +3,22 @@
 #include"System.h"
 CRobot::CRobot()
 {
-	char filename[] = "Pic\\WuKong\\player0.png";
+	//char filename[] = "Pic\\WuKong\\player0.png";
+	char filename[] = "Pic\\Robot\\play0.png";
+
 	for (int i = 0; i < 10; i++)
 	{
-		filename[17] = '0' + i;
+		filename[14] = '0' + i;
 		m_Image[i] = cvLoadImage(filename);
-		//cout << filename << endl;
+		cout << filename << endl;
 	}
-	char filename1[] = "Pic\\WuKong\\player10.png";
+	//char filename1[] = "Pic\\WuKong\\player10.png";
+	char filename1[] = "Pic\\Robot\\play10.png";
 	for (int i = 0; i < 6; i++)
 	{
-		filename1[18] = '0' + i;
+		filename1[15] = '0' + i;
 		m_Image[i + 10] = cvLoadImage(filename1);
-		//cout << filename1 << endl;
+		cout << filename1 << endl;
 	}
 	m_Speed = 40;
 	m_PosX = 40 * 14;
@@ -37,6 +40,7 @@ void CRobot::Move(System sys)
 {
 
 	int randt = rand() % 4;
+	//randt = 3;
 	switch (randt)
 	{
 	case 0:
@@ -106,7 +110,8 @@ void CRobot::Draw2Back(IplImage * pback)
 			uchar top_g = CV_IMAGE_ELEM(pimg, uchar, x, y * 3 + 1);
 			uchar top_r = CV_IMAGE_ELEM(pimg, uchar, x, y * 3 + 2);
 
-			if (top_b >= 250 && top_g >= 250 && top_r >= 250)
+			//if (top_b >= 250 && top_g >= 250 && top_r >= 250)
+			if (Tools::DisRed(top_b, top_g, top_r))
 				continue;
 
 			CV_IMAGE_ELEM(pback, uchar, x + m_PosX, (y + m_PosY) * 3) = top_b;
