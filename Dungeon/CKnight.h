@@ -5,6 +5,7 @@ class CKnight :
 {
 public:
 	CKnight();
+	CKnight(CvPoint pos);
 	~CKnight();
 };
 

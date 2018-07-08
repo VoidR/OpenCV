@@ -33,6 +33,21 @@
     <ClInclude Include="CKnight.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CRole.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSlime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGoblinbow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMurloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -53,5 +68,23 @@
     <ClCompile Include="CKnight.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CRole.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSlime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CGoblinbow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMurloc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>
