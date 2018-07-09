@@ -38,7 +38,7 @@ CSystem::CSystem()
 	//障碍物
 	m_ImgObstacle[0] = cvLoadImage("Pic\\block102.png");//村落障碍物
 	m_ImgObstacle[1] = cvLoadImage("Pic\\block139.png");//丛林障碍物
-	m_ImgObstacle[2] = cvLoadImage("Pic\\block140.png");
+	m_ImgObstacle[2] = cvLoadImage("Pic\\block140.png");//墓穴障碍物
 
 	//上边框
 	m_ImgUp[0] = cvLoadImage("Pic\\map104.png");
@@ -80,6 +80,12 @@ CSystem::CSystem()
 		str[8] = '0' + i;
 		m_TextNumber[i] = cvLoadImage(str);
 	}
+
+	//边框图片
+	m_ImgBlockRed = cvLoadImage("Pic\\imageRed.png");
+	m_ImgBlockGreen = cvLoadImage("Pic\\imageGreen.png");
+
+	m_ImgKey = cvLoadImage("Pic\\imgkey.png");
 }
 
 
@@ -139,7 +145,7 @@ void CSystem::RandMap()
 		m_Map[1 + rand() % 5][1 + rand() % 5] = m_NumberObstacle;
 
 	//生成带锁的门
-	m_Map[1 + rand() % 5][1 + rand() % 5] = m_NumberUnlockedDoor;
+	m_Map[1 + rand() % 5][1 + rand() % 5] = m_NumberLockedDoor;
 }
 
 void CSystem::DrawMap()
@@ -163,6 +169,8 @@ void CSystem::DrawMap()
 				CTools::Draw2Back(m_BackMap, m_ImgObstacle[m_Level], x, y, 'R');
 			else if (m_Map[i][j] == m_NumberNPC)//NPC
 				CTools::Draw2Back(m_BackMap, m_ImgNPC, x, y, 'R');
+			else if (m_Map[i][j] == m_NumberKey)
+				CTools::Draw2Back(m_BackMap, m_ImgKey, 140 + (i - 1) * 58 + (58 - 14) / 2, 7 + (j - 1) * 58 + (58 - 26) / 2, 'R');
 			else if (m_Map[i][j] == m_NumberUnlockedDoor)//门
 				CTools::Draw2Back(m_BackMap, m_ImgDoor[0], x, y, 'R');
 			else if (m_Map[i][j] == m_NumberLockedDoor)//上锁的门
@@ -227,14 +235,63 @@ void CSystem::DrawChampion()
 	CTools::Draw2Back(m_Backt, m_Player->m_Weapon, m_Player->GetWeaponRow(), m_Player->GetWeaponCol(), 'R');
 	CTools::Draw2Back(m_Backt, m_Player->m_Minor, m_Player->GetMinorRow(), m_Player->GetMinorCol(), 'R');
 	CTools::Draw2Back(m_Backt, m_Player->m_Block, m_Player->GetBlockRow(), m_Player->GetBlockCol(), 'R');
+
+	int num = 0;
+	num = m_Player->m_Health;
+	for (int i = 0; num; i++)//绘制生命值
+	{
+		int temp = num % 10;
+		CTools::Draw2Back(m_Backt, m_TextNumber[temp], 140 + (m_Player->m_Pos.x - 1) * 58 + 5, 54 + (m_Player->m_Pos.y - 1) * 58 - i * 5, 'R');
+		num /= 10;
+	}
+	num = m_Player->m_Damage;
+	for (int i = 0; num; i++)//绘制攻击力
+	{
+		int temp = num % 10;
+		CTools::Draw2Back(m_Backt, m_TextNumber[temp], 140 + (m_Player->m_Pos.x - 1) * 58 + 43, 15 + (m_Player->m_Pos.y - 1) * 58 - i * 5, 'R');
+		num /= 10;
+	}
+	num = m_Player->m_Armor;
+	for (int i = 0; num; i++)//绘制护甲
+	{
+		int temp = num % 10;
+		CTools::Draw2Back(m_Backt, m_TextNumber[temp], 140 + (m_Player->m_Pos.x - 1) * 58 + 43, 53 + (m_Player->m_Pos.y - 1) * 58 - i * 5, 'R');
+		num /= 10;
+	}
+	num = m_Player->m_Mana;
+	for (int i = 0; num; i++)//绘制魔力值
+	{
+		int temp = num % 10;
+		CTools::Draw2Back(m_Backt, m_TextNumber[temp], 140 + (m_Player->m_Pos.x - 1) * 58 + 5, 16 + (m_Player->m_Pos.y - 1) * 58 - i * 5, 'R');
+		num /= 10;
+	}
+
+
+	if (m_Map[m_Player->m_Pos.x - 1][m_Player->m_Pos.y] == 0)
+		CTools::Draw2Back(m_Backt, m_ImgBlockGreen, 140 + (m_Player->m_Pos.x - 2) * 58 + 3, (m_Player->m_Pos.y - 1) * 58 + 10, 'B');
+	if (m_Map[m_Player->m_Pos.x][m_Player->m_Pos.y - 1] == 0)
+		CTools::Draw2Back(m_Backt, m_ImgBlockGreen, 140 + (m_Player->m_Pos.x - 1) * 58 + 3, (m_Player->m_Pos.y - 2) * 58 + 10, 'B');
+	if (m_Map[m_Player->m_Pos.x + 1][m_Player->m_Pos.y] == 0)
+		CTools::Draw2Back(m_Backt, m_ImgBlockGreen, 140 + (m_Player->m_Pos.x) * 58 + 3, (m_Player->m_Pos.y - 1) * 58 + 10, 'B');
+	if (m_Map[m_Player->m_Pos.x][m_Player->m_Pos.y + 1] == 0)
+		CTools::Draw2Back(m_Backt, m_ImgBlockGreen, 140 + (m_Player->m_Pos.x - 1) * 58 + 3, (m_Player->m_Pos.y) * 58 + 10, 'B');
+}
+
+void CSystem::ChampionMove(char key)
+{
+	AlterMap(m_Player->m_Pos, m_NumberRoad);
+	m_Player->Move(key);
+	AlterMap(m_Player->m_Pos, m_NumberChampion);
 }
 
 void CSystem::RandAllPos()
 {
+	AlterMap(m_Player->m_Pos, m_NumberRoad);
 	m_Player->RePos(RandPos());
 	AlterMap(m_Player->m_Pos, m_NumberChampion);
 	for (int i = 0; i < m_Monsters.size(); i++)
 	{
+		AlterMap(m_Monsters[i]->m_Pos, m_NumberRoad);
 		m_Monsters[i]->RePos(RandPos());
 		AlterMap(m_Monsters[i]->m_Pos, m_NumberMonster);
 	}
@@ -273,7 +330,12 @@ void CSystem::CreateMonsters()
 			p = new CMurloc(RandPos());
 			break;
 		}
+		if (i == 0)
+			p->m_Key = 1;
+		else
+			p->m_Key = 0;
 		m_Monsters.push_back(p);
+		AlterMap(m_Monsters[i]->m_Pos, m_NumberMonster);
 	}
 
 }
@@ -282,9 +344,27 @@ void CSystem::DrawMonster()
 {
 	for (int i = 0; i < m_Monsters.size(); i++)
 	{
-		CTools::Draw2Back(m_Backt, m_Monsters[i]->m_Block, m_Monsters[i]->GetBlockRow(), m_Monsters[i]->GetBlockCol(), 'R');
+		CTools::Draw2Back(m_Backt, m_Monsters[i]->m_BlockKey[m_Monsters[i]->m_Key], m_Monsters[i]->GetBlockRow(), m_Monsters[i]->GetBlockCol(), 'R');
 		CTools::Draw2Back(m_Backt, m_Monsters[i]->m_Body, m_Monsters[i]->GetBodyRow(), m_Monsters[i]->GetBodyCol(), 'R');
-		AlterMap(m_Monsters[i]->m_Pos, m_NumberMonster);
+		int num = 0;
+		num = m_Monsters[i]->m_Health;
+		for (int t = 0; num;)//绘制生命值
+		{
+			CTools::Draw2Back(m_Backt, m_TextNumber[num % 10], 140 + (m_Monsters[i]->m_Pos.x - 1) * 58 + 7, 55 + (m_Monsters[i]->m_Pos.y - 1) * 58 - t++ * 5, 'R');
+			num /= 10;
+		}
+		num = m_Monsters[i]->m_Damage;
+		for (int t = 0; num;)//绘制攻击力
+		{
+			CTools::Draw2Back(m_Backt, m_TextNumber[num % 10], 140 + (m_Monsters[i]->m_Pos.x - 1) * 58 + 44, 17 + (m_Monsters[i]->m_Pos.y - 1) * 58 - t++ * 5, 'R');
+			num /= 10;
+		}
+		num = m_Monsters[i]->m_Armor;
+		for (int t = 0; num;)//绘制护甲
+		{
+			CTools::Draw2Back(m_Backt, m_TextNumber[num % 10], 140 + (m_Monsters[i]->m_Pos.x - 1) * 58 + 44, 55 + (m_Monsters[i]->m_Pos.y - 1) * 58 - t++ * 5, 'R');
+			num /= 10;
+		}
 	}
 }
 
@@ -292,7 +372,11 @@ void CSystem::MonsterAutoMove()
 {
 	for (int i = 0; i < m_Monsters.size(); i++)
 	{
-		//if (IsTouch(m_Monsters[i]))	continue;
+		if (IsTouch(m_Monsters[i]))
+		{
+			MonsterAttack(m_Monsters[i]);
+			continue;
+		}
 		char key = GetAutoMoveDir(m_Monsters[i]);
 		if (key == 'w' || key == 'a' || key == 's' || key == 'd')
 		{
@@ -303,6 +387,17 @@ void CSystem::MonsterAutoMove()
 	}
 }
 
+void CSystem::MonsterAttack(CMonster * monster)
+{
+	m_Player->Hurt(monster->m_Damage);
+	if (IsDead(m_Player))
+	{
+		AlterMap(m_Player->m_Pos, m_NumberRoad);
+		Lose();
+	}
+}
+
+
 void CSystem::Run()
 {
 	while (1)
@@ -311,24 +406,43 @@ void CSystem::Run()
 		//cout << key;
 		if ((key == 'w' || key == 'a' || key == 's' || key == 'd'))
 		{
-			if (IsSpace(NextPos(key, m_Player->m_Pos)))
+			CvPoint next = NextPos(key, m_Player->m_Pos);
+			if (IsSpace(next))
 			{
-				AlterMap(m_Player->m_Pos, m_NumberRoad);
-				m_Player->Move(key);
-				AlterMap(m_Player->m_Pos, m_NumberChampion);
+				ChampionMove(key);
 				MonsterAutoMove();
 			}
-			else if (IsOpenDoor(NextPos(key, m_Player->m_Pos)))
+			else if (IsMonster(next))
+			{
+				ChampionAttack(next);
+			}
+			else if (IsOpenDoor(next))
+			{
 				NextRoom();
+			}
+			else if (IsKey(next))
+			{
+				AlterMap(next, m_NumberRoad);
+				ChampionMove(key);
+				AlterMap(GetDoorPos(), m_NumberUnlockedDoor);
+			}
+
 		}
 		cvCopy(m_BackMap, m_Backt);
 		ReMap();
 	}
 }
 
+bool CSystem::IsDead(CRole * role)
+{
+	if (role->m_Health <= 0)
+		return true;
+	return false;
+}
+
 bool CSystem::IsSpace(CvPoint next)
 {
-	if (m_Map[next.x][next.y] == 0)
+	if (m_Map[next.x][next.y] == m_NumberRoad)
 		return true;
 	else
 		return false;
@@ -336,10 +450,45 @@ bool CSystem::IsSpace(CvPoint next)
 
 bool CSystem::IsOpenDoor(CvPoint next)
 {
-	if (m_Map[next.x][next.y] == 9)
+	if (m_Map[next.x][next.y] == m_NumberUnlockedDoor)
 		return true;
 	else
 		return false;
+}
+
+bool CSystem::IsMonster(CvPoint next)
+{
+	if (m_Map[next.x][next.y] == m_NumberMonster)
+		return true;
+	else
+		return false;
+}
+
+bool CSystem::IsKey(CvPoint next)
+{
+	if (m_Map[next.x][next.y] == m_NumberKey)
+		return true;
+	else
+		return false;
+}
+
+void CSystem::ChampionAttack(CvPoint next)
+{
+	int i = 0;
+	while (m_Monsters[i]->m_Pos.x != next.x || m_Monsters[i]->m_Pos.y != next.y) { i++; }
+	m_Monsters[i]->Hurt(m_Player->m_Damage);
+	if (IsDead(m_Monsters[i]))
+	{
+		if (m_Monsters[i]->m_Key == 1)
+			AlterMap(m_Monsters[i]->m_Pos, m_NumberKey);
+		else
+			AlterMap(m_Monsters[i]->m_Pos, m_NumberRoad);
+		m_Monsters.erase(m_Monsters.begin() + i);
+	}
+	else
+	{
+		MonsterAttack(m_Monsters[i]);
+	}
 }
 
 CvPoint CSystem::NextPos(char key , CvPoint now)
@@ -363,6 +512,23 @@ CvPoint CSystem::NextPos(char key , CvPoint now)
 	}
 	CvPoint p = now;
 	return p;
+}
+
+CvPoint CSystem::GetDoorPos()
+{
+	CvPoint pos(0,0);
+
+	for (int i = 1; i <= m_MapSize; i++)
+		for (int j = 1; j <= m_MapSize; j++)
+		{
+			if (m_Map[i][j] == 10)
+			{
+				pos.x = i;
+				pos.y = j;
+				break;
+			}
+		}
+	return pos;
 }
 
 char CSystem::GetAutoMoveDir(CMonster * p)
@@ -435,6 +601,12 @@ void CSystem::NextRoom()
 
 
 void CSystem::Win()
+{
+	m_Level = 0;
+	m_Room = 0;
+}
+
+void CSystem::Lose()
 {
 	m_Level = 0;
 	m_Room = 0;

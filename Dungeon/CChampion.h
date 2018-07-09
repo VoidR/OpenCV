@@ -13,6 +13,7 @@ public:
 	IplImage* m_Face;//脸部图片
 	IplImage* m_Weapon;//武器图片
 	IplImage* m_Minor;//盾牌图片
+	IplImage* m_Block;//边框图片
 
 	int GetFaceRow();//计算面部纵向像素坐标
 	int GetFaceCol();//计算面部横向像素坐标

@@ -10,7 +10,6 @@ public:
 	int m_Armor;//护甲
 
 	IplImage* m_Body;//身体图片
-	IplImage* m_Block;//边框图片
 
 	virtual int GetBodyRow() = 0;//计算身体纵向像素坐标
 	virtual int GetBodyCol() = 0;//计算身体横向像素坐标
@@ -19,5 +18,6 @@ public:
 
 	void Move(char key);//移动
 	void RePos(CvPoint next);//修改坐标
+	int Hurt(int damage);//受到伤害
 };
 

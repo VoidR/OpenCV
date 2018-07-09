@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="CGoblinbow" Collapsed="true">
-    <Position X="8.5" Y="4.75" Width="1.5" />
+    <Position X="7.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CGoblinbow.h</FileName>
@@ -14,7 +14,7 @@
       <FileName>CChampion.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CRole">
+  <Class Name="CRole" Collapsed="true">
     <Position X="5.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EAEAACCBAIAAAIAAAAAAgQAQABAIAAAgAAAAAAAAAAQ=</HashCode>
@@ -29,21 +29,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="CMonster" Collapsed="true">
-    <Position X="8.5" Y="2.75" Width="1.5" />
+    <Position X="7.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAACAAABAAAAAAAAAgAAAABAIAAAAAAAAAAIAAAA=</HashCode>
       <FileName>CMonster.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CMurloc" Collapsed="true">
-    <Position X="11.25" Y="4.75" Width="1.5" />
+    <Position X="9.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
       <FileName>CMurloc.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CSlime" Collapsed="true">
-    <Position X="6.5" Y="4.75" Width="1.5" />
+    <Position X="5.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
       <FileName>CSlime.h</FileName>
@@ -52,7 +52,7 @@
   <Class Name="CSystem" Collapsed="true">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AADBBGYIABKgEAEAEFAEAAAiIAQGBAAQEogDBBgBIBI=</HashCode>
+      <HashCode>AADBBGYIABqgEgEAEFAEACAiIAQGBANQFogDBlwBIBI=</HashCode>
       <FileName>CSystem.h</FileName>
     </TypeIdentifier>
   </Class>
