@@ -12,6 +12,8 @@ public:
 	int GetBlockCol();//计算边框横向像素坐标
 
 	IplImage* m_BlockKey[2];//带钥匙的边框
+	IplImage* m_Text;//图鉴图片
 	int m_Key;//是否有钥匙
+	int m_IsAttack;//是否已经攻击
 };
 

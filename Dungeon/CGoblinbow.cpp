@@ -24,6 +24,7 @@ CGoblinbow::CGoblinbow(CvPoint pos)
 	m_Health = 8;
 	m_Damage = 4;
 	m_Armor = 3;
+	m_Text = cvLoadImage("Pic\\mob006t.png");
 }
 
 

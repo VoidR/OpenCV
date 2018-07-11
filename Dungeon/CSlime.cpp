@@ -23,7 +23,8 @@ CSlime::CSlime(CvPoint pos)
 	m_BlockKey[1] = cvLoadImage("Pic\\block4.png");
 	m_Health = 8;
 	m_Damage = 4;
-	m_Armor = 3;
+	m_Armor = 3; 
+	m_Text = cvLoadImage("Pic\\mob008t.png");
 }
 
 

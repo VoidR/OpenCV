@@ -9,6 +9,10 @@ protected:
 	bool m_IsSave;//是否有存档
 	int m_Level;//关卡
 	int m_Room;//房间
+	int m_EventNum;//事件序号
+	int m_TipsNum;//小提示序号
+	int m_TipsShift;//小提示切换
+	CMonster* m_FaceMonster;//面对的怪物
 	int m_NumMonsters;//房间中怪物数量
 	int m_Map[8][8];//地图
 	const int m_MapSize = 6;//地图大小
@@ -31,7 +35,7 @@ protected:
 	IplImage* m_ImgLeft[3];//左边框图片图片
 	IplImage* m_ImgRight[3];//右边框图片图片
 	IplImage* m_ImgDown[3];//下边框图片图片
-	IplImage* m_ImgObstacle[3];//障碍物图片
+	IplImage* m_ImgObstacle[8];//障碍物图片
 	IplImage* m_ImgDoor[3];//门图片
 	IplImage* m_ImgKey;//钥匙图片
 	IplImage* m_TextLevelName[5];//关卡名字
@@ -39,6 +43,9 @@ protected:
 	IplImage* m_TextNumber[10];//数字图片
 	IplImage* m_ImgBlockRed;//可攻击的红色边框
 	IplImage* m_ImgBlockGreen;//可移动的绿色边框
+	IplImage* m_TextNoKey;//没有钥匙
+	IplImage* m_TextTips[3];//小提示图片
+	IplImage* m_ImgTipClean;//刷洗小提示
 
 
 	CChampion* m_Player;//控制的英雄
@@ -54,8 +61,12 @@ public:
 	void RandMap();//随机生成地图
 	void DrawMap();//绘制不同关卡的地图
 	void DrawRoomNum();//绘制房间数字
+	void DrawMonsterText();//绘制怪物图鉴
 	void ReMap();//更新地图
 	void AlterMap(CvPoint pos,int num);//更改地图
+	void DrawEvent();//绘制事件
+	void InitStatus();//初始化地图标记
+	void ReTips();//更新小提示
 	
 
 	void CreateChampion();//创建英雄
@@ -67,6 +78,8 @@ public:
 	void DrawMonster();//画Monster
 	void MonsterAutoMove();//怪物自动靠近移动
 	void MonsterAttack(CMonster* monster);//攻击英雄
+	void InitMonsterAttack();//初始化攻击标记
+	CMonster* GetMonster(CvPoint pos);//获取目标怪物的坐标
 
 	void RandAllPos();//坐标全部随机
 	CvPoint RandPos();//获取随机坐标
@@ -76,6 +89,7 @@ public:
 	bool IsDead(CRole* role);//死亡判定
 	bool IsSpace(CvPoint next);//空地判定
 	bool IsOpenDoor(CvPoint next);//下一关判定
+	bool IsLockedDoor(CvPoint next);//带锁的门判定
 	bool IsMonster(CvPoint next);//怪物判定
 	bool IsKey(CvPoint next);//钥匙判定
 	CvPoint NextPos(char key, CvPoint now);//获取下一步坐标
@@ -88,4 +102,3 @@ public:
 	void Win();//胜利
 	void Lose();//失败
 };
-
