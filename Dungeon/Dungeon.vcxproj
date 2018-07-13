@@ -150,8 +150,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CChampion.h" />
+    <ClInclude Include="CDragon.h" />
     <ClInclude Include="CGoblinbow.h" />
+    <ClInclude Include="CHonorSystem.h" />
     <ClInclude Include="CKnight.h" />
+    <ClInclude Include="CLord.h" />
     <ClInclude Include="CMonster.h" />
     <ClInclude Include="CMurloc.h" />
     <ClInclude Include="CRole.h" />
@@ -163,8 +166,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CChampion.cpp" />
+    <ClCompile Include="CDragon.cpp" />
     <ClCompile Include="CGoblinbow.cpp" />
+    <ClCompile Include="CHonorSystem.cpp" />
     <ClCompile Include="CKnight.cpp" />
+    <ClCompile Include="CLord.cpp" />
     <ClCompile Include="CMonster.cpp" />
     <ClCompile Include="CMurloc.cpp" />
     <ClCompile Include="CRole.cpp" />

@@ -30,3 +30,11 @@ int CMonster::GetBlockCol()
 {
 	return (m_Pos.y - 1) * 58 + 2 + 7;
 }
+
+void CMonster::ReProperty(int grade)
+{
+	grade--;
+	m_Health = grade * 8 + m_BasicHealth;;
+	m_Damage = grade * 2 + m_BasicDamage;
+	m_Armor = grade * 2 + m_BasicArmor;
+}

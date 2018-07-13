@@ -9,6 +9,10 @@ public:
 	int m_Damage;//伤害
 	int m_Armor;//护甲
 
+	int m_BasicHealth;//基础生命值
+	int m_BasicDamage;//基础伤害
+	int m_BasicArmor;//基础护甲
+
 	IplImage* m_Body;//身体图片
 
 	virtual int GetBodyRow() = 0;//计算身体纵向像素坐标

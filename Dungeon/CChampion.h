@@ -8,7 +8,9 @@ public:
 	CChampion();
 	~CChampion();
 
+	int m_HealthMax;//生命值上限
 	int m_Mana;//法力值 英雄特有
+	int m_BasicMana;//基础法力值 英雄特有
 
 	IplImage* m_Face;//脸部图片
 	IplImage* m_Weapon;//武器图片
@@ -26,5 +28,8 @@ public:
 	int GetBlockRow();//计算边框纵向像素坐标
 	int GetBlockCol();//计算边框横向像素坐标
 
+	void ReProperty(int grade[4]);//更改属性
+	void Recover();//回血
+	void ReMAX();//回满
 };
 

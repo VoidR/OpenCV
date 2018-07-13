@@ -48,6 +48,15 @@
     <ClInclude Include="CMurloc.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CHonorSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CLord.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDragon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -81,6 +90,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CMurloc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CHonorSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CLord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDragon.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

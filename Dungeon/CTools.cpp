@@ -80,7 +80,7 @@ void CTools::Draw2BackTrans(IplImage * pback, IplImage * pimg, int x, int y)
 
 bool CTools::DisRed(int b, int g, int r)
 {
-	if (b <= 5 && g <= 5 && r >= 250)
+	if (b <= 5 && g <= 5 && r >= 255)
 		return true;
 	else
 		return false;

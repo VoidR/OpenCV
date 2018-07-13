@@ -49,6 +49,26 @@ int CChampion::GetBlockCol()
 	return (m_Pos.y - 1) * 58 + 2 + 7;
 }
 
+void CChampion::ReProperty(int grade[4])
+{
+	m_Health = m_HealthMax = grade[0] * 8 + m_BasicHealth;
+	m_Mana = grade[1] * 6 + m_BasicMana;
+	m_Damage = grade[2] * 2 + m_BasicDamage;
+	m_Armor = grade[3] * 2 + m_BasicArmor;
+}
+
+void CChampion::Recover()
+{
+	m_Health += m_HealthMax * 0.4;
+	if (m_Health > m_HealthMax)
+		m_Health = m_HealthMax;
+}
+
+void CChampion::ReMAX()
+{
+	m_Health = m_HealthMax;
+}
+
 
 int CChampion::GetWeaponRow()
 {

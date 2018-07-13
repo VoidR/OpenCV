@@ -11,10 +11,11 @@ CKnight::CKnight()
 	m_Weapon = cvLoadImage("Pic\\wepon000.png");
 	m_Minor = cvLoadImage("Pic\\minor100.png");
 	m_Block = cvLoadImage("Pic\\block1.png");
-	m_Health = 42;
-	m_Damage = 8;
-	m_Armor = 3;
-	m_Mana = 20;
+	m_HealthMax = 42;
+	m_BasicDamage = 8;
+	m_BasicArmor = 3;
+	m_BasicMana = 20;
+	m_BasicHealth = m_HealthMax;
 }
 
 CKnight::CKnight(CvPoint pos)
@@ -25,10 +26,11 @@ CKnight::CKnight(CvPoint pos)
 	m_Weapon = cvLoadImage("Pic\\wepon000.png");
 	m_Minor = cvLoadImage("Pic\\minor100.png");
 	m_Block = cvLoadImage("Pic\\block1.png");
-	m_Health = 42;
-	m_Damage = 8;
-	m_Armor = 3;
-	m_Mana = 20;
+	m_HealthMax = 42;
+	m_BasicDamage = 8;
+	m_BasicArmor = 3;
+	m_BasicMana = 20; 
+	m_BasicHealth = m_HealthMax;
 }
 
 CKnight::~CKnight()

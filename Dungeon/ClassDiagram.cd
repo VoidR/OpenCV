@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="CGoblinbow" Collapsed="true">
-    <Position X="7.5" Y="4.75" Width="1.5" />
+    <Position X="7.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CGoblinbow.h</FileName>
@@ -10,14 +10,14 @@
   <Class Name="CChampion" Collapsed="true">
     <Position X="3.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AACAAACKCIAEAAEAACAAgAAAABAMAAAAQAAgAAAIAAA=</HashCode>
+      <HashCode>AACAAACLCKAEAAEAACAAgAAAABAMAAAAQIBgAAAIAAA=</HashCode>
       <FileName>CChampion.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CRole" Collapsed="true">
     <Position X="5.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAEAACCBAIAAAIAAAAAAgQAQABAIAAAgAAAAAAAAAAQ=</HashCode>
+      <HashCode>EAEAACSAAIAQAIAAAAAAgQAUABAIAAAgAAAAAAAAgAQ=</HashCode>
       <FileName>CRole.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -31,19 +31,35 @@
   <Class Name="CMonster" Collapsed="true">
     <Position X="7.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAACAAABAAAAAAAAAgAAAABAIAAAAAAAAAAIAAAA=</HashCode>
+      <HashCode>AAEAEACAAABAQgAAAAAAgEAAABAIABAAAABAAAIAAAA=</HashCode>
       <FileName>CMonster.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CMurloc" Collapsed="true">
-    <Position X="9.5" Y="4.75" Width="1.5" />
+    <Position X="9.5" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="CMonster" ManuallyRouted="true">
+      <Path>
+        <Point X="8.25" Y="3.427" />
+        <Point X="8.25" Y="5.021" />
+        <Point X="10.25" Y="5.021" />
+        <Point X="10.25" Y="5.25" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
       <FileName>CMurloc.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CSlime" Collapsed="true">
-    <Position X="5.5" Y="4.75" Width="1.5" />
+    <Position X="5.5" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="CMonster" ManuallyRouted="true">
+      <Path>
+        <Point X="8.25" Y="3.427" />
+        <Point X="8.25" Y="5.01" />
+        <Point X="6.25" Y="5.01" />
+        <Point X="6.25" Y="5.25" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
       <FileName>CSlime.h</FileName>
@@ -52,15 +68,22 @@
   <Class Name="CSystem" Collapsed="true">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AADBBGYIABqgEgEAEFAEACAiIAQGBANQFogDBlwBIBI=</HashCode>
+      <HashCode>AIDBVGZIgBugEhHAElIUEmAiIARGBENYFrhDJtwPILM=</HashCode>
       <FileName>CSystem.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CTools" Collapsed="true">
-    <Position X="0.5" Y="1.5" Width="1.5" />
+    <Position X="0.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAABAAAAAAAAAAAAAAAAgEAAAAAAgAAAAAAAAAAMQA=</HashCode>
       <FileName>CTools.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHonorSystem" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgACAAAAAACAIAAIAAAAAAAgACAACAAAAAQ=</HashCode>
+      <FileName>CHonorSystem.h</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Microsoft YaHei UI" Size="9" />
